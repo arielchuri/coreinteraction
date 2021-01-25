@@ -25,8 +25,8 @@ CD Foundations: Interaction is designed to introduce students to programming as 
 1. Research historic and current design precedents to contextualize your own work.
 1. Be able to archive and document work that is printed, on screen or time based in a reflective manner for learning portfolio.
 1. Combine your artistic creativity with technology related to the internet.
-1. Demonstrate a comprehension of skills, methods, techniques and processes to realize interactive systems, particularly systems for dealing with unpredictable, variable, and ever-changing content.	
-   
+1. Demonstrate a comprehension of skills, methods, techniques and processes to realize interactive systems, particularly systems for dealing with unpredictable, variable, and ever-changing content.
+
 ## Final Grade Calculation
 - In-class and home Assignments         50%
 - Final Project                         30%
@@ -144,7 +144,7 @@ A recipe is a set of instructions that describes how to prepare or make somethin
 - Amount of servings
 - Description
 - Unordered list of at least five ingredients
-- Ordered list of at least five steps 
+- Ordered list of at least five steps
 - At least one image
 
 Keep the following in mind:
@@ -187,7 +187,7 @@ Create a _Style Guide_ that can be used as a tool for making design decisions. S
 <!--     The careful use of type is one of the challenges of a design education. The development of a personal style guide allows an artist or designer to develop a relationship with the presentation of type without a concern for content.   -->
 
 #### Recipe Style 2
-Edit your reipe document to use the material we covered in class. 
+Edit your reipe document to use the material we covered in class.
 - Padding and margins
 - Columns
 - Flexbox
@@ -254,7 +254,7 @@ Create a webpage that is a single page of a
 
 <!-- Pattern making is a satisfying codemaking exercise that introduces students to the power programming. Students will present their code in class and work with their classmates to solve problems.  -->
 
-    
+
 <!-- #### Forking Paths -->
 <!-- Create an interactive narrative. Allow your user choose their path through the experience and allow their decisions to affect the narrative programmatically. Use images, sound, video and type. Consider alternate forms of user input. -->
 
@@ -263,11 +263,11 @@ Create a webpage that is a single page of a
 
 #### Final Project: Student's choice
 Create a web site of your choosing for the final project. You proposal must be approved.
-    
+
 <!-- #### Final Project: FUTURE PRODUCT -->
 <!-- Create *Product Page*, a page introducing a consumer product. Invent a product for you page that satisfies a future need. Ask yourself *how could society change in the future*. What needs will these changes bring and what product could satisfy those needs. The final project will be divided over 3 milestones and each will be graded individually. Students may submit an alternate final project of their choosing for approval. -->
 
-The final project is designed to give the students the freedom to be creative and explore the aspects of the course that interests them while providing a structured framework that is of their own design. 
+The final project is designed to give the students the freedom to be creative and explore the aspects of the course that interests them while providing a structured framework that is of their own design.
 ##### Final Project Proposal
 Create a simple presentation pitching your final project to the class. Include a description of the project, an outline of the process you will use to complete it, and what you hope to achieve by presenting your work to the public.
 <!-- #### UX Documentation & Development Plan -->
@@ -360,7 +360,7 @@ The university provides many resources to help students achieve academic and art
 
 For additional help with coursework assigned during the semester, you are encouraged to schedule tutoring sessions at the University Learning Center (ULC). Individual appointments are offered in Writing (all levels), Math, Adobe, Computer Programming, Oral Presentations and Time Management. Sessions are interactive, with both tutor and student participating. Appointments can be scheduled on Starfish or you can stop by for a walk-in session. The ULC is located on the 6th floor of 66 West 12th street. Academic and skill-building workshops are also offered. For a complete list of services, workshops, and general information, visit www.newschool.edu/learning-center.
 
-## Attendance, Grading and Work Submission Standards, Program Policies, Making Resources, and University Policies 
+## Attendance, Grading and Work Submission Standards, Program Policies, Making Resources, and University Policies
 
 All CD classes adhere to the same program and university policies:
 
