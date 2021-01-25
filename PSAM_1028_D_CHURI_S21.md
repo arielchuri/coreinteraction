@@ -9,6 +9,7 @@ Monday, 7-9:40pm
 Online Course (Zoom & Canvas)
 
 Ariel Churi churia@newschool.edu   
+[github repository](https://github.com/arielchuri/coreInteraction)
 [Google Drive Folder](https://drive.google.com/drive/folders/1hLjEqpE7p3xdN-wrCZVxcr8I5nm3TvGm?usp=sharing)
 
 ## Course Description
@@ -27,7 +28,7 @@ CD Foundations: Interaction is designed to introduce students to programming as 
 1. Demonstrate a comprehension of skills, methods, techniques and processes to realize interactive systems, particularly systems for dealing with unpredictable, variable, and ever-changing content.	
    
 ## Final Grade Calculation
-- In-class and home Assignments    50%
+- In-class and home Assignments         50%
 - Final Project                         30%
 - In-class Participation                20%
 
@@ -42,7 +43,7 @@ Javascript
 ### Weeks 11-15
 Advanced topics and final project
 ## Course Outline
-### Week 1 -  Jan. 27 
+### Week 1 - 01/25
 - How Computers Work and Organizing your Files
 - The Development Environment: Browser Web Developer Tools and Text Editors
 - Firefox Developer Edition, ATOM
@@ -51,15 +52,15 @@ Advanced topics and final project
 - Coding an HTML page
 <!-- - Sophomore Work Collection -->
 ##### Assignment
-- **_Type Sample Sheet_**
+- **_Recipe_** (due next session)
 - **_Class Form_** (due next session)
-### Week 2 - Feb. 3
+### Week 2 - 02/01
 - CSS and HTML
 - How CSS works
 - CSS selectors
 ##### Assignment
-- **_Recipe_** (due next session)
-### Week 3 - Feb. 10
+- **_Recipe Style_** (due next session)
+### Week 3 - 02/08
 - Color on the web
 - Compressing folders with ZIP
 - Pixels and em spaces
@@ -67,41 +68,40 @@ Advanced topics and final project
 - Commenting and Indenting
 - CSS resets
 ##### Assignment
-- **_Recipe Style_** (due next session)
-###  No class - Feb. 17
-### Week 4 - Feb. 24
+- **_Recipe Style 2_** (due next session)
+###  No class - 02/15
+### Week 4 - 02/22
 - Layout with CSS
 - Padding and margins
 - CSS Columns
 - Flexbox
 ##### Assignment
-- **_Recipe Style 2_** (due next session)
-### Week 5 - Mar. 2
+- **_Circle, Square, Triangle_** (due next session)
+### Week 5 - 03/01
 - Type on the web
 - Grid Systems
 - CSS Shapes
 - CSS Positioning
 ##### Assignment
-- **_Circle, Square, Triangle_** (due next session)
-### Week 6 - Mar. 9
+### Week 6 - 03/08
 - Responsive design
 - Media queries
 ##### Assignment
 - **_Responsive Recipe_** (due next session)
-### No class - Mar. 16
-### Week 7 - Mar. 23
+### No class - 03/15
+### Week 7 - 03/22
 - Mid semester Review
 - Links
 - Linking to sections of the current page
 #### Assignment
 - **_Bestiary Page_** (due next session)
-### Week 8 - Mar. 30
+### Week 8 - 03/29
 - CSS Animations
 - CSS Gradients
 - Alternate ways of using images
 ##### Assignment
 - **_CSS Effects_**
-### Week 9 - Apr. 6
+### Week 9 - 04/05
 - Introduction to Javascript
 - Understanding the DOM
 - Selecting objects in the DOM
@@ -109,28 +109,28 @@ Advanced topics and final project
 ##### Assignment
 - **_Javascript Review_**
 - **_MadLib_**
-### Week 10 - Apr. 13
+### Week 10 - 04/12
 - Javascript functions
 - Creating responsive navigation
 ##### Assignment
 **_Final Project Proposal_** (due next session)
-### Week 11 - Apr. 20
+### Week 11 - 04/19
 - Downloading and using Javascript libraries
     - jQuery
     - lightbox.js
 ##### Assignment
 - **_Development Plan_** (due next session)
 - **_Final 1_** (due next session)
-### Week 12 - Apr. 27
+### Week 12 - 04/26
 - Using HTML Frameworks
 ##### Assignment
 - **_Final 2_** (due next session)
-### Week 13 - May. 4
+### Week 13 - 05/03
 ##### Assignment
 - **_Final_** (due in two sessions)
-### Week 14 - May. 11
+### Week 14 - 05/10
 - Work session
-### Week 15 - May. 12
+### Week 15 - 05/12
 - Review of final project
 - Overview
 
