@@ -59,10 +59,11 @@ Advanced topics and final project
 - CSS and HTML
 - How CSS works
 - CSS selectors
-- CSS defaulst layout
+- CSS default layout
   - inline & block level elements
-- type
+- type & typography
 ##### Assignment
+- **_Poems**
 ### Week 3 - 02/08
 - Color on the web
 - Compressing folders with ZIP
@@ -277,7 +278,7 @@ Create a simple presentation pitching your final project to the class. Include a
 <!-- Turn in a PDF of the UX documentation for the final project. Include a site map and user journey. Also turn in a development accounting for a three week development period. Be specific about what you intend to have completed at each milestone. -->
 
 ## Reading / Media
-1. [Ellen Lupton, *Thinking With Type*](https://ebookcentral-proquest-com.libproxy.newschool.edu/lib/newschool/detail.action?docID=3387329)*
+1. [Ellen Lupton, *Thinking With Type*](https://ebookcentral-proquest-com.libproxy.newschool.edu/lib/newschool/detail.action?docID=3387329)
 1.[*Universal Principles of Design*](https://ebookcentral-proquest-com.libproxy.newschool.edu/lib/newschool/detail.action?docID=3399678)
 1. Casey Reas, Chandler McWilliams, and LUST, Form+Code in Design, Art, and Architecture
 1. Kimberly Elam, Geometry of Design
