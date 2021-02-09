@@ -43,14 +43,32 @@ nav li {
   font-size: 3rem;
   font-weight: 900;
 }
+.mygallery {
+  display: flex;
+  padding: 6px;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  width: 200px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  margin: 6px;
+}
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 .mysquare {
   background-color: lightblue;
   margin: 12px;
   width: 100px;
   height: 100px;
+}
+.mysquare2 {
+}
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
 }
