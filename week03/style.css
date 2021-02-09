@@ -67,6 +67,7 @@ nav li {
   height: 100px;
 }
 .mysquare2 {
+  flex: 1;
 }
 .flex-container2 {
   display: flex;
