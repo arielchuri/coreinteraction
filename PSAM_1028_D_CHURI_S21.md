@@ -62,6 +62,7 @@ Advanced topics and final project
 - CSS default layout
   - inline & block level elements
 - type & typography
+- Padding and margins
 ##### Assignment
 - **_Poems**
 ### Week 3 - 02/08
@@ -70,15 +71,14 @@ Advanced topics and final project
 - Pixels and em spaces
 - The box model
 - Commenting and Indenting
-- CSS resets
+- Flexbox
 ##### Assignment
 - **_Recipe Style_** (due next session)
 ###  No class - 02/15
 ### Week 4 - 02/22
 - Layout with CSS
-- Padding and margins
 - CSS Columns
-- Flexbox
+- CSS resets
 ##### Assignment
 - **_Circle, Square, Triangle_** (due next session)
 ### Week 5 - 03/01
