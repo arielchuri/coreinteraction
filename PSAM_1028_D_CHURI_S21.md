@@ -73,23 +73,26 @@ Advanced topics and final project
 - Commenting and Indenting
 - Flexbox
 ##### Assignment
-- **_Recipe Style_** (due next session)
+- **_Simple Website 1_** (due next session)
 ###  No class - 02/15
 ### Week 4 - 02/22
-- Layout with CSS
-- CSS Columns
-- CSS resets
+- In class review of simple website
 ##### Assignment
-- **_Circle, Square, Triangle_** (due next session)
+- **_Simple Website 2_** (due next session)
 ### Week 5 - 03/01
+- FTP and the web server
+- Responsive design
+- Media queries
+- Layout with CSS
 - Type on the web
 - Grid Systems
 - CSS Shapes
 - CSS Positioning
+- CSS Columns
+- CSS resets
 ##### Assignment
+- **_Mobile First_**
 ### Week 6 - 03/08
-- Responsive design
-- Media queries
 ##### Assignment
 - **_Responsive Recipe_** (due next session)
 ### No class - 03/15
