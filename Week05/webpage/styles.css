@@ -4,3 +4,36 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: pink;
+  margin: auto;
+  max-width: 900px;
+}
+img {
+  width: 100%;
+}
+.indexcard {
+  display: flex;
+  flex-direction: column;
+}
+.indexcarditems {
+  width: 100%;
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+.indexcard {
+  flex-direction: row;
+}
+.indexcarditems {
+  width: 50%;
+}
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
