@@ -1,0 +1,25 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 800px;
+  margin:auto;
+  background-color: pink;
+}
+.main {
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width:600px) {
+ body {
+   background-color: lightblue;
+ }
+ .section {
+   flex-direction: row;
+ }
+}
