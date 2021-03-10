@@ -1,0 +1,112 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: auto;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  z-index: 999;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.menu-wrap {
+  max-width: 888px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-icon {
+  font-size: 2em;
+  line-height: 45px;
+}
+
+#checkbox {
+  display: none;
+}
+
+#checkbox:checked~nav ul {
+  max-height: 100vh;
+  padding: 15px 0;
+  transition: all 0.5s;
+  border-bottom: 1px solid #ccc;
+  ``
+}
+
+nav {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  max-height: 0px;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s;
+  border-bottom: 0px solid #ccc;
+  `` display: flex;
+}
+
+nav ul li {
+  padding-left: 30px;
+  padding-bottom: 6px;
+}
+
+nav ul li a {
+  display: inline-block;
+  /* Add your custom styles below to change appearance of links */
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+  color: #666;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 3;
+    top: 0px;
+    border: none;
+  }
+
+  nav ul {
+    text-align: right;
+    max-height: 50px;
+  }
+
+  nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+    line-height: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.logo {
+  flex: 2;
+}
