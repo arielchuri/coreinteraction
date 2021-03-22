@@ -18,3 +18,9 @@ article {
 p {
   margin-bottom: 12px;
 }
+#story {
+  display: none;
+}
+.myword {
+  color: deeppink;
+}
