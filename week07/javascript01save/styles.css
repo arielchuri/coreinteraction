@@ -1,0 +1,20 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 24px auto;
+}
+main {
+  padding: 24px;
+}
+article {
+  margin-bottom: 24px;
+}
+p {
+  margin-bottom: 12px;
+}
