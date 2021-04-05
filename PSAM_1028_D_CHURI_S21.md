@@ -94,49 +94,52 @@ Advanced topics and final project
 - **_Mobile First_**
 ### Week 6 - 03/08
 ##### Assignment
-- **_Responsive Recipe_** (due next session)
+- **_Mobile First 2_**
 ### No class - 03/15
 ### Week 7 - 03/22
 - Mid semester Review
 - Links
 - Linking to sections of the current page
 #### Assignment
-- **_Bestiary Page_** (due next session)
+- **_Create with JavaScript_**
 ### Week 8 - 03/29
-- CSS Animations
-- CSS Gradients
-- Alternate ways of using images
-##### Assignment
-- **_CSS Effects_**
-### Week 9 - 04/05
 - Introduction to Javascript
+  - variables
+  - operators
+  - conditionals
+  - iterators
+  - functions
 - Understanding the DOM
 - Selecting objects in the DOM
-- Javascript - Working with page events
 ##### Assignment
-- **_Javascript Review_**
-- **_MadLib_**
+- **_Coding 101_**
+### Week 9 - 04/05
+    - CSS animations
+    - CSS gradients
+    - Web design process and UX
+    - Final project
+#### Assignment
+- **_CSS Gallery_**
 ### Week 10 - 04/12
-- Javascript functions
-- Creating responsive navigation
-##### Assignment
-**_Final Project Proposal_** (due next session)
+#### Individual meetings
+Please book a meeting during this week   
+[Office Hours](https://doodle.com/mm/1586524042/office-hours)
 ### Week 11 - 04/19
-- Downloading and using Javascript libraries
-    - jQuery
-    - lightbox.js
 ##### Assignment
-- **_Development Plan_** (due next session)
-- **_Final 1_** (due next session)
+    - CSS Variables
+    - Changing classes with javascript to change styles
+    - Responsive navigation with javascript
 ### Week 12 - 04/26
-- Using HTML Frameworks
-##### Assignment
-- **_Final 2_** (due next session)
+    - Javascript page events
+    - Javascript functions with arguments
 ### Week 13 - 05/03
-##### Assignment
-- **_Final_** (due in two sessions)
+    - Downloading and using Javascript libraries
+        - jQuery
+        - lightbox.js
 ### Week 14 - 05/10
-- Work session
+#### Individual meetings
+Please book a meeting during this week   
+[Office Hours](https://doodle.com/mm/1586524042/office-hours)
 ### Week 15 - 05/12
 - Review of final project
 - Overview
@@ -280,6 +283,39 @@ Create a simple presentation pitching your final project to the class. Include a
 <!-- #### UX Documentation & Development Plan -->
 <!-- Turn in a PDF of the UX documentation for the final project. Include a site map and user journey. Also turn in a development accounting for a three week development period. Be specific about what you intend to have completed at each milestone. -->
 
+## Website creation process
+1. The design brief
+   - Why is this product being created?
+   - Who is the target audience?
+   - What is the state of the art (competitive analysis)?
+   - It what context will they access the product?
+   - What are the goals?
+   - How will success be measured?
+1. Content
+   - Content audit (what content is available already)
+   - Copy
+   - Images
+   - Interaction
+1. User Experience
+   - Who are the users?
+   - What are the user's motivations?
+   - How will the user access the information? 
+   - Information architecture
+1. Create user profiles
+1. Create user journeys
+1. Wireframes
+1. Style
+   - Mood board
+   - Color palette
+   - Typeface
+   - imagery
+   - motion design
+   - micro interactions
+1. Prototype (testing)
+1. Development
+1. Testing
+1. QA
+1. Metrics (testing)
 ## Reading / Media
 1. [Ellen Lupton, *Thinking With Type*](https://ebookcentral-proquest-com.libproxy.newschool.edu/lib/newschool/detail.action?docID=3387329)
 1.[*Universal Principles of Design*](https://ebookcentral-proquest-com.libproxy.newschool.edu/lib/newschool/detail.action?docID=3399678)
