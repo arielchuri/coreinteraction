@@ -6,7 +6,6 @@ for (var n = 0; n < 20; n = n + 1) {
 		console.log( n + " is odd.")
 	}
 }
-
 //Excersice 2
 var cars = ["Fred", "Mary","Joe"];
 for ( var i = cars.length-1; i >= 0 ; i=i-1 ) { //The loop starts at the length of the array -1 and decrements by 1 until 0.
@@ -26,7 +25,8 @@ for (var p=0; p<10; p++) {
 }
 
 //Excersice 4
-const myString = Array.from("backwards"); //This makes an array from a string.
+var myVariable = "backwards";
+const myString = Array.from(myVariable); //This makes an array from a string.
 console.log(myString);
 for (var r=0; r<10; r++) {
 	if (r % 2 != 0) {//This is the same conditional as before but != is 'not equals' so it is checking for odd numbers.
