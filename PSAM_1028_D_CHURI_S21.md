@@ -331,6 +331,7 @@ Create a simple presentation pitching your final project to the class. Include a
 1. [*Paragraphs on Conceptual Art*, Sol Lewitt](https://www.dropbox.com/s/civ8ofgp13opp7v/Paragraphs_on_Conceptual_Art_Sol_LeWitt.pdf?dl=0)
 1. [Guide to Website Navigation]( http://sixrevisions.com/user-interface/navigation-design-patterns/)
 1. [Web Design: The First 100 Years, Maciej Cegłowski](http://idlewords.com/talks/web_design_first_100_years.htm)
+1. [Why Does Design Look Good](https://www.nngroup.com/articles/why-does-design-look-good/) 
 
 ## Materials and Supplies
 -Access to your FTP server.
