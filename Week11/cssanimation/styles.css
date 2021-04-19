@@ -1,0 +1,92 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 32px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.fancy1 {
+  background-color: lightblue;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.transformer {
+  transform: rotate(45deg) scale(.6) translateX(-200px);
+  /*
+  transform: translateX(200px);
+  transform: scale(.8);
+  */
+}
+
+.transformhover:hover {
+  transform: rotate(45deg) scale(.6) translateX(-200px);
+  background-color: pink;
+}
+
+.transitioner {
+  transition: 1s;
+  /*
+transition: rotate 1s 1s, scale 1s 2s, translateX .5s 3s;
+*/
+}
+
+.transitiondivided {
+  transition: transform 3s linear, background-color 2s 3s;
+}
+
+.keyframe1 {
+  animation-name: anime1;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.keyframe2 {
+  animation-name: anime1;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-delay: 1.5s;
+}
+
+@keyframes anime1 {
+  from {
+    transform: translateX(-400px)
+  }
+
+  to {
+    transform: translateX(100vw)
+  }
+}
+
+.keyframe3 {
+  animation: anime1 10s linear infinite;
+}
+
+.keyframe3:nth-child(2) {
+  animation: anime1 1s linear infinite;
+  background-color: gold;
+  color: black;
+  animation: anime1 5s 10s linear,
+              hop .5s 12s ease;
+}
+@keyframes hop {
+  0%{ width: 20px }
+  50%{ width: 500px }
+  100%{ width: 20px}
+}
