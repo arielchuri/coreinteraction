@@ -310,6 +310,7 @@ Create a simple presentation pitching your final project to the class. Include a
    - imagery
    - motion design
    - micro interactions
+1. Design
 1. Prototype (testing)
 1. Development
 1. Testing
