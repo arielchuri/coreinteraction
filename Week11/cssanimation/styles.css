@@ -12,7 +12,7 @@ main {
 }
 
 .fancy1 {
-  background-color: lightblue;
+  background-color: blue;
   border-radius: 10px;
   width: 200px;
   height: 200px;
@@ -32,8 +32,8 @@ main {
 }
 
 .transformhover:hover {
-  transform: rotate(45deg) scale(.6) translateX(-200px);
-  background-color: pink;
+  transform: translateX(200px) rotate(45deg) scale(.6) ;
+  background-color: red;
 }
 
 .transitioner {
@@ -52,16 +52,18 @@ transition: rotate 1s 1s, scale 1s 2s, translateX .5s 3s;
   animation-duration: 3s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
+  background-color: red;
 }
 
 .keyframe2 {
   animation-name: anime1;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-direction: reverse;
   animation-timing-function: linear;
   animation-delay: 1.5s;
+  background-color: chocolate;
 }
 
 @keyframes anime1 {
@@ -75,18 +77,19 @@ transition: rotate 1s 1s, scale 1s 2s, translateX .5s 3s;
 }
 
 .keyframe3 {
-  animation: anime1 10s linear infinite;
+  animation: anime1 10s ease infinite;
 }
 
 .keyframe3:nth-child(2) {
-  animation: anime1 1s linear infinite;
+  /*animation: anime1 1s linear infinite;*/
   background-color: gold;
   color: black;
   animation: anime1 5s 10s linear,
               hop .5s 12s ease;
 }
+
 @keyframes hop {
-  0%{ width: 20px }
+  0%{ width: 100px }
   50%{ width: 500px }
-  100%{ width: 20px}
+  100%{ width: 100px}
 }

@@ -114,8 +114,9 @@ Advanced topics and final project
 ##### Assignment
 - **_Coding 101_**
 ### Week 9 - 04/05
-    - CSS animations
     - CSS gradients
+    - CSS Variables
+    - Changing classes with javascript to change styles
     - Web design process and UX
     - Final project
 #### Assignment
@@ -125,11 +126,9 @@ Advanced topics and final project
 Please book a meeting during this week   
 [Office Hours](https://doodle.com/mm/1586524042/office-hours)
 ### Week 11 - 04/19
-##### Assignment
-    - CSS Variables
-    - Changing classes with javascript to change styles
-    - Responsive navigation with javascript
+    - CSS animations
 ### Week 12 - 04/26
+    - Responsive navigation with javascript
     - Javascript page events
     - Javascript functions with arguments
 ### Week 13 - 05/03
