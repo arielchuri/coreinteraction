@@ -1,0 +1,57 @@
+:root {
+  --color01: #222;
+  --color02: #fff;
+  --color03: #aaa;
+  --color04: #ddd;
+  --color05: #444;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--color02);
+  opacity: 1;
+  background-image: linear-gradient(var(--color04) 1px, transparent 1px), linear-gradient(to right, var(--color04) 1px, var(--color02) 1px);
+  background-size: 10px 10px;
+}
+main {
+  margin: auto;
+  max-width: 800px;
+  height: 100vh;
+  background-color: white;
+  padding: 24px;
+  font-size: 1.2rem;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  padding: 24px;
+  max-width: 800px;
+}
+nav {
+}
+nav ul{
+  list-style: none;
+  display: block;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.showmenu {
+  display: flex;
+}
+.hamburger {
+  display: block;
+  background-color: pink;
+  width: 2em;
+  height: 1em;
+}
+p {
+  margin-bottom: 12px;
+}
+.important {
+  color: pink;
+}
