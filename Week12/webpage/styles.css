@@ -1,0 +1,15 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  background-color: yellow;
+}
+.content {
+  margin: auto;
+  max-width: 800px;
+  background-color: red;
+}
+nav
