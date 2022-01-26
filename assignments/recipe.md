@@ -11,6 +11,7 @@ A website is directory (folder). Inside the folder is a text file named *index.h
         <body>
             <h1>How to make idli.</h1>
             <h2>Description</h2>
+            <img src="name_of_my_file.jpg">
             <p>
                 uhaotnu <strong>uohatnuo</strong> uohatnuhnt <em>uhotnah htnuoeah</em> uhotnah
             </p>
