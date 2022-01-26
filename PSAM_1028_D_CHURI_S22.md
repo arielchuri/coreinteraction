@@ -3,6 +3,8 @@
 
 **Core 1: Interaction**
 
+|                        |                                               |
+|------------------------|-----------------------------------------------|
 | **Program**            | School of Art, Media, and Technology:         |
 |                        | Communication Design                          |
 | **CRN**                | 3066                                          |
