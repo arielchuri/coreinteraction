@@ -3,28 +3,20 @@
 
 **Core 1: Interaction**
 
-|                        |                                               |
-|------------------------|-----------------------------------------------|
-| **Program**            | School of Art, Media, and Technology:         |
-|                        | Communication Design                          |
-| **CRN**                | 3066                                          |
-| **Semester**           | Spring 22                                     |
-| **Meeting Day**        | Monday                                        |
-| **Meeting Time**       | 7:00pm                                        |
-| **Building/Room/Zoom** | Academic Entrance 63 Fifth Ave **Room**:      |
-|                        | L101                                          |
-|                        |                                               |
-|                        | [*https://NewSchool.zoom.us/j/99              |
-|                        | 911590408?pwd=TXduc1BITWNGeUFnY0tlZ1h5QTZH    |
-|                        | dz09*](https://newschool.zoom.us/j/9991159    |
-|                        | 0408?pwd=TXduc1BITWNGeUFnY0tlZ1h5QTZHdz09)    |
-|                        |                                               |
-|                        | Password: 839047                              |
-| **Instructor & Email** | Ariel Churi                                   |
-|                        |                                               |
-|                        | churia@newschool.edu                          |
-|                        |                                               |
-| **Class Website**      | https://github.com/arielchuri/coreInteraction |
+|                   |                                                                                           |
+|-------------------|-------------------------------------------------------------------------------------------|
+| **Program**       | School of Art, Media, and Technology:                                                     |
+|                   | Communication Design                                                                      |
+| **CRN**           | 3066                                                                                      |
+| **Semester**      | Spring 22                                                                                 |
+| **Meeting Day**   | Monday                                                                                    |
+| **Meeting Time**  | 7:00pm                                                                                    |
+| **Building/Room** | Academic Entrance 63 Fifth Ave **Room**: L101                                             |
+| **Zoom**          | [Zoom link](https://newschool.zoom.us/j/99911590408?pwd=TXduc1BITWNGeUFnY0tlZ1h5QTZHdz09) |
+| Password          | 839047                                                                                    |
+| **Instructor**    | Ariel Churi                                                                               |
+| **Email**         | churia@newschool.edu                                                                      |
+| **Class Website** | https://github.com/arielchuri/coreInteraction                                             |
 
 **Course Description**
 
