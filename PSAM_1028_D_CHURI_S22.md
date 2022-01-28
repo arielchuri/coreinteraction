@@ -18,7 +18,7 @@
 | **Email**         | churia@newschool.edu                                                                      |
 | **Class Website** | https://github.com/arielchuri/coreInteraction                                             |
 
-**Course Description**
+## Course Description
 
 Core 1: Interaction is designed to introduce students to programming as
 a creative medium---as a way of making and exploring. The coursework
@@ -31,7 +31,7 @@ applies to a screen context, research-based problem solving and a
 learning-through-making approach to technical skill building. Historical
 and current interaction design precedents will be discussed.
 
-**Readings**
+## Readings
 
 1.  Casey Reas, Chandler McWilliams, and LUST, *Form+Code in Design,
     Art, and Architecture*
@@ -43,9 +43,9 @@ and current interaction design precedents will be discussed.
 7.  Compiled by Laurel Schwulst, *Very Interactive Library*
 8.  Paul Ford, *What is Code?*
 
-**Course Outline**
+## Course Outline
 
-**Unit 1 Week 1-4: Working methods**
+### Unit 1 Week 1-4: Working methods
 
 The first segment of Core Interaction will focus on the tools and
 concepts required for building interactive experiences. We'll use the
