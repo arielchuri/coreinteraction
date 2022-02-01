@@ -61,8 +61,6 @@ In weeks 1-4 we will focus on:
 -   HTML/CSS basic concepts and syntax
 -   Figma (components, prototyping, grids, canvas sizing)
 
-Sample projects: *Interview, Expressive Text, All HTML*
-
 ### Unit 2 Week 5-8: Digital canvas
 
 In our second segment, we'll investigate how designing for the digital
@@ -77,8 +75,6 @@ In weeks 4-8 we will focus on:
 -   HTML structure (box model, dissecting a web page)
 -   Layouting (position, float, flexbox, grid)
 -   Designing for the digital canvas (how big is a browser?)
-
-Sample projects: *Flags, 25 Variations*
 
 ### Unit 3 Week 9-11: Designing for interaction
 
@@ -96,8 +92,6 @@ In weeks 6-9 we will focus on:
 -   User models (entering and receiving data, user flows, UX patterns,
     ways of navigating)
 
-Sample project: *Stories as Networks*
-
 ### Unit 4 Week 12-15: Networks
 
 Because a website lives in a larger network of apps, websites, devices,
@@ -114,12 +108,9 @@ In weeks 10-15 we will focus on:
 -   Metadata (search, social)
 -   Connecting to other web services
 
-Sample project: *Living Collection*
-
 ## Learning Outcomes
 
-*By the end of the semester, students will be able to:\
-*
+By the end of the semester, students will be able to:\
 
 1.  Use a basic vocabulary of interactive media to both give and respond
     to critique productively.
