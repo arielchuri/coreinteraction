@@ -18,7 +18,7 @@ A website is directory (folder). Inside the folder is a text file named *index.h
             <p>
                 Another paragraph.
             </p>
-            <h2>Indredients</h2>
+            <h2>Ingredients</h2>
             <ul>
                 <li>Idli mix</li>
                 <li>Idli chutney</li>

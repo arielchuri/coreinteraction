@@ -1,0 +1,30 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 48px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+
+img {
+  border-radius: 5%;
+}
+
+li {
+  color: #555;
+}
+
+strong {
+  font-weight: normal;
+  color: deeppink;
+}
