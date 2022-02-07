@@ -2,9 +2,9 @@
 Universal
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-/* Apply styling to all elements (including their `:before` and `:after` pseudo-
-elements). One common use of this selector is to apply a custom `box-sizing`,
-for example as explained here: https://css-tricks.com/?page_id=175473 */
+/* Apply styling to all elements (including their `::before` and `::after`
+pseudo-elements). One common use of this selector is to apply a custom
+`box-sizing`, e.g. as explained here: https://css-tricks.com/?page_id=175473 */
 *, *::before, *::after {}
 
 
@@ -12,59 +12,18 @@ for example as explained here: https://css-tricks.com/?page_id=175473 */
 Root
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-:root {
-  margin: 1rem;
-font-family: 'Open Sans', sans-serif;
-  font-size: 12pt;
-  line-height: 18pt;
-  color: #444444;
-}
+:root {}
 html {}
-body {
-  max-width: 1000px;
-  margin: auto;
-}
-div {
-  margin: .5rem;
-}
+body {}
 
-/*
-BLOCKS
-*/
-.hatch01 {
-  background-image: linear-gradient(45deg, #71ccf0 7.14%, #ffffff 7.14%, #ffffff 50%, #71ccf0 50%, #71ccf0 57.14%, #ffffff 57.14%, #ffffff 100%);
-background-size: 9.90px 9.90px;
-border: 1px solid #71ccf0;
-padding: .5rem;
-}
-.hatch02 {
-background-image: linear-gradient(45deg, #ffa3e0 7.14%, #ffffff 7.14%, #ffffff 50%, #ffa3e0 50%, #ffa3e0 57.14%, #ffffff 57.14%, #ffffff 100%);
-background-size: 9.90px 9.90px;
-border: 1px solid #ffa3e0;
-padding: .5rem;
-}
-.dot01 {
-background-color: #ffffff;
-opacity: 1;
-background-image: radial-gradient(#71ccf0 1px, #ffffff 1px);
-background-size: 8px 8px;
-border: 1px solid #71ccf0;
-padding: .5rem;
-}
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Content sectioning
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 h1, h2, h3, h4, h5, h6 {}
-h1 {
-  font-size: 4rem;
-  font-weight: 300;
-}
-h2 {
-  font-size: 1.8rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
+h1 {}
+h2 {}
 h3 {}
 h4 {}
 h5 {}
@@ -129,7 +88,7 @@ dd {}
 Inline text semantics
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-a {color:#71ccf0}
+a {}
 a:visited {}
 a:hover {}
 a:active {}
@@ -189,6 +148,8 @@ canvas {}
 audio {}
 object {}
 
+noscript {}
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Table content
@@ -210,7 +171,7 @@ Forms
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 fieldset {}
-fieldset[disabled] {}
+fieldset:disabled {}
 legend {}
 
 form {}
@@ -272,29 +233,28 @@ option:checked {}
 datalist {}
 
 button,
-input[type="submit"],
-input[type="reset"] {}
-button[disabled],
-input[type="submit"][disabled],
-input[type="reset"][disabled] {}
-button.secondary,
-input[type="reset"] {}
-button.secondary[disabled],
-input[type="reset"][disabled] {}
+input[type="submit"] {}
+button:disabled,
+input[type="submit"]:disabled {}
+button.secondary {}
+button.secondary:disabled {}
 
 /* This matches forms or form elements that are invalid *and* have been
 interacted with. Note that:
 1) You may need to add the `interacted` class to forms yourself
 2) You may need to add the `touched` class to form fields yourself
-3) `:user-invalid` is a working draft and not supported by any browser (yet)
+3) `:user-invalid` is a working draft and not yet supported by most browsers
 4) `:-moz-ui-invalid` is non-standard and only works in Firefox
 Form validation error messages will appear (in capable browsers) regardless of
 this styling. You can omit 1) and 2) and still have working forms. Perfect
 example of progressive enhancement. */
+/* Applies to invalid forms */
 form.interacted:invalid {}
-form.interacted :invalid,
-form .touched:invalid,
-:user-invalid,
+/* Applies to invalid form fields. You would need to repeat your declarations
+for the following three groups of selectors individually. Browsers completely
+ignore any rule that contains a selector they do not know. */
+form.interacted :invalid, form .touched:invalid {}
+:user-invalid {}
 :-moz-ui-invalid {}
 
 output {}
