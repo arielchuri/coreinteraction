@@ -1,0 +1,79 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: serif;
+  font-family: sans-serif;
+  /* font-family: monospace; */
+  font-size: 100%;
+  /* background-color: honeydew; */
+  background-color: ivory ;
+}
+
+main {
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  max-width: 800px;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  background-image: linear-gradient(to right, #fff, #999, #fff);
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+div.poem {
+  margin-bottom: 2em;
+}
+
+div#one {
+  font-family: 'Texturina', serif;
+}
+
+div#two {
+  text-align: right;
+  font-family: 'Crimson Pro', serif;
+  font-size: 120%;
+  line-height: 1.8em;
+}
+
+div#two p {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+div#three {
+  text-align: center;
+  font-family: 'Imbue', serif;
+  font-size: 160%;
+  line-height: 2.2em;
+}
+
+div#three p {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+
+h3.attribution {
+  font-weight: 200;
+  font-style: italic;
+}
