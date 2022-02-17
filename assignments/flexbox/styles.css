@@ -1,0 +1,41 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: ivory;
+}
+
+main {
+  background-color: lavenderblush;
+}
+
+.boxholder {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+  background-color: bisque;
+  margin-bottom: 6px;
+}
+
+.box {
+  background-color: aliceblue;
+  min-height: 48px; /*this is here to make the page look less crowded*/
+  padding: 6px;
+  margin: 6px;
+}
+
+.color01 {
+  background-color: lavender;
+}
+
+.color02 {
+  background-color: thistle;
+}
+
+.wide {
+  width: 100%;
+}

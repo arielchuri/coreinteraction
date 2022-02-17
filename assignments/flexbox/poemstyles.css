@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*Uncomment the following line to see a border around every element*/
+  /* border: 1px solid black; */
+}
+
+body {
+  font-family: serif;
+  font-family: sans-serif;
+  /* font-family: monospace; */
+  font-size: 100%;
+  /* background-color: honeydew; */
+  background-color: ivory ;
+}
+
+.boxholder {
+  flex-direction: row-reverse;
+  background-color: ivory ;
+}
+
+.box {
+  flex: 4;
+  background-color: ivory ;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.sidebar {
+  flex: 1;
+}
+main {
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  max-width: 800px;
+  background-color: ivory ;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  background-image: linear-gradient(to right, #fff, #999, #fff);
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+div.poem {
+  margin-bottom: 2em;
+}
+
+div#one {
+  font-family: 'Texturina', serif;
+}
+
+div#two {
+  text-align: right;
+  font-family: 'Crimson Pro', serif;
+  font-size: 90%;
+  line-height: 1.8em;
+}
+
+div#two p {
+  margin-bottom: 3em;
+}
+
+div#three {
+  text-align: center;
+  font-family: 'Imbue', serif;
+  font-size: 100%;
+  line-height: 2.2em;
+}
+
+div#three p {
+  margin-bottom: 3em;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+
+h3.attribution {
+  font-weight: 200;
+  font-style: italic;
+}
