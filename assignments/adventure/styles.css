@@ -1,0 +1,22 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #2222FF;
+  --background: gainsboro;
+}
+
+body {
+  color: var(--black);
+  background: var(--background);
+}
+
+.box {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+}
