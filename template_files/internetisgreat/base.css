@@ -1,0 +1,187 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+p {
+  margin-bottom: 12px;
+  margin-top: 6px;
+}
+
+h1.big {
+  /* Responsive type. */
+  font-size: calc(100vw / 8);
+  line-height: 1em;
+  margin: 0;
+}
+
+/* This makes the first item in a copy div not have a top margin. */
+.copy> :first-child {
+  margin-top: 0 !important;
+}
+
+/* We are mobile first so the column count is 1. */
+.copy {
+  column-count: 1;
+  text-align: justify;
+  column-gap: 24px;
+}
+
+/* We are mobile first so the so the flex-direction is column. */
+.row {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This effects the children of .row. */
+.row>* {
+  width: 100%;
+  max-width: 888px;
+  flex: 1 0 100%;
+}
+
+.boxholder {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box {
+  margin-bottom: 12px;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  width: 100%;
+}
+
+/* These next two remove the margins we need when not on mobile. */
+.boxholder> :last-child {
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.boxholder> :first-child {
+  margin-right: 0px;
+}
+
+/* Tablet. */
+@media screen and (min-width: 480px) {
+  .copy {
+    column-count: 2;
+  }
+}
+
+/* Desktop. */
+@media screen and (min-width: 769px) {
+  .copy {
+    column-count: 3;
+  }
+
+  .row {
+    padding: 50px;
+  }
+
+  .boxholder {
+    flex-direction: row;
+  }
+
+  /* These put space between the flex box columns. */
+  .boxholder> :last-child {
+    margin-left: 24px;
+  }
+
+  .boxholder> :first-child {
+    margin-right: 24px;
+  }
+
+  .box {
+    margin-bottom: 0px;
+  }
+
+  h1.big {
+    /* No more responsive type on desktop. */
+    font-size: 96px;
+    line-height: 1em;
+  }
+}
+
+nav>ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+img.grey {
+  transition: filter .2s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+  /* FF 35+ */
+  /*    filter: blur(5px);*/
+}
+
+img.grey:hover {
+  transition: filter .2s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */
+}
+
+.hatch01 {
+  background-image: linear-gradient(135deg, #ffffff 40%, #ccc 40%, #ccc 50%, #ffffff 50%, #ffffff 90%, #ccc 90%, #ccc 100%);
+  background-size: 7.07px 7.07px;
+}
+
+.dot01 {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#ccc 1px, #ffffff 1px);
+  background-size: 8px 8px;
+}
+
+.graphpaper {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: linear-gradient(#ccc 1px, transparent 1px), linear-gradient(to right, #ccc 1px, #ffffff 1px);
+  background-size: 10px 10px;
+}
+
+.frame01 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+}
+
+.pinkback {
+  background: thistle;
+}
+
+.blueback {
+  background: powderblue;
+}
+
+.greenback {
+  background: honeydew;
+}
+
+.yellowback {
+  background: lemonchiffon;
+}
+
+.whiteback {
+  background: white;
+}
