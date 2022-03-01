@@ -18,7 +18,6 @@ body {
 .box {
   max-width: 800px;
   margin: auto;
-  background: white;
   padding: 2rem;
   column-count: 2;
   column-gap: 2rem;
@@ -29,6 +28,25 @@ p {
   margin-bottom: 1rem;
 }
 .content {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+}
+.row {
+  background: white;
+}
+#header {
+  background: pink;
+}
+#footer {
+  background: deeppink;
+}
+.hero-image {
+  background-image: url("photographer.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
