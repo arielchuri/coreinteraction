@@ -19,8 +19,16 @@ body {
   max-width: 800px;
   margin: auto;
   background: white;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 2rem;
   column-count: 2;
   column-gap: 2rem;
+  line-height: 1.4rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+.content {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
