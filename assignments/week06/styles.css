@@ -1,0 +1,78 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lightgray;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+#boxa1 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: mediumorchid;
+}
+
+#boxa2 {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  background: violet;
+}
+
+#boxa3 {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  background: thistle;
+}
+
+.box > img {
+  max-width: 100%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.backgroundimage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+section {
+  background: white;
+  max-width: 900px;
+  height: 1200px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+div.flex {
+  display: flex;
+  min-height: 200px;
+  justify-content: space-between;
+  align-items: stretch;
+  border: .5px solid lightgray;
+  margin-bottom: 2rem;
+}
+
+div.box {
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: .5px black solid;
+}
