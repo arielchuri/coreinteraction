@@ -1,0 +1,95 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.row {
+  margin: 32px;
+  border: .5px solid lightgray;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background: deeppink;
+  position: absolute;
+  mix-blend-mode: multiply;
+}
+#square2, #square3, #square4 {
+  background: mediumslateblue;
+  border-radius: 5px;
+  transform: skewY(15deg) translate(40px, 20px);
+}
+
+@keyframes my_anime1 {
+  0% {
+    opacity: 0;
+    transform: skewY(0deg) translate(0px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: skewY(15deg) translate(40px, 15px);
+    width: 90px;
+  }
+}
+
+#square3 {
+  opacity: 0;
+  animation-name: my_anime1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  background: dodgerblue;
+}
+
+@keyframes my_anime2 {
+  0% {
+    opacity: 0;
+    transform: skewY(0deg) translate(0px, 0px);
+  }
+  50% {
+    opacity: 1;
+    transform: skewY(15deg) translate(40px, 15px);
+    width: 90px;
+  }
+  100% {
+    opacity: 1;
+    transform: skewY(0deg) translate(40px, 30px);
+    border-radius: 50%;
+    width: 100px;
+  }
+}
+
+#square4 {
+  opacity: 0;
+  animation-name: my_anime2;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  background: deepskyblue;
+}
+
+@keyframes my_anime3 {
+  to {
+    border-radius: 0%;
+    background: springgreen;
+  }
+}
+
+#square5 {
+  opacity: 0;
+  animation: my_anime2 4s 0s,
+             my_anime3 2s 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background: deepskyblue;
+}
