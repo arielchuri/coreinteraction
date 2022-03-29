@@ -16,6 +16,12 @@
      background-color: hotpink;
      margin-bottom: 1rem;
    }
+   div {
+       padding: 1rem;
+   }
+   #story {
+       display: none;
+   }
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -29,11 +35,23 @@ the web browser will use to change your web page based on the viewer’s
 actions.</p>
 <p>A javascript file is a seperate text file that is loaded in the
 browser with your webpage. In order for</p>
-<div class="rect" id="rect01">
+<div class="rect" id="questions">
+    <input type="text" id="field01" value="Noun">
+    <input type="text" id="field02" value="Verb">
+    <input type="text" id="field03" value="Adjective">
+    <input type="text" id="field04" value="Noun">
+    <input type="text" id="field05" value="Adverb">
+    <button id="myButton">BUTTON</button>
 </div>
-<div class="rect" id="rect02">
+<div class="rect" id="story">
+    <p>
+        I was walking down the street and I saw a <span id="word01"></span>.
+        I was walking down the street and I saw a <span id="word02"></span>.
+        I was walking down the street and I saw a <span id="word03"></span>.
+        I was walking down the street and I saw a <span id="word04"></span>.
+        I was walking down the street and I saw a <span id="word05"></span>.
+    </p>
 </div>
-<div class="rect" id="rect03">
-</div>
+<script src="myscript.js"></script>
 </body>
 </html>
