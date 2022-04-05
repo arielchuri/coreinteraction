@@ -3,6 +3,16 @@ body {
     max-width: 800px;
 }
 
+.gallerydiv {
+    width: 30%;
+}
+
 .galleryphoto {
     width: 100%;
+}
+
+#data_holder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
