@@ -1,17 +1,17 @@
 [
     {
         "id": "1",
-        "firstName": "John",
-        "lastName": "Doe"
+        "filename": "nudi01.jpg",
+        "title": "Doe"
     },
     {
         "id": "2",
-        "firstName": "Mary",
-        "lastName": "Peterson"
+        "filename": "nudi02.jpg",
+        "title": "Peterson"
     },
     {
         "id": "3",
-        "firstName": "George",
-        "lastName": "Hansen"
+        "filename": "nudi03.jpg",
+        "title": "Hansen"
     }
 ]
