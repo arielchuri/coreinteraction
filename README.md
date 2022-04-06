@@ -1,0 +1,16 @@
+# Core Interaction
+
+- [Sylllabus](syllabus.md)
+- [Syllabus PDF](PSAM_1028_D_CHURI_S22.pdf)
+- [Templates](./template_files)
+- [Recipe](./assignments/recipe.md)
+- [Recipe Style](./assignments/recipe_style.md)
+- [Poems](https://arielchuri.github.io/coreinteraction/assignments/poems/)
+- [flexbox](./flexbox)
+- [selector](./selectors)
+- [adventure](./adventure)
+- [box model](./boxmodel)
+- [animation](./animation)
+- [javascript](./javascript)
+- [looping through json](./loopingthroughjson)
+- [gallery](./gallery)
