@@ -14,3 +14,4 @@
 - [javascript](./assignments/javascript)
 - [looping through json](./assignments/loopingthroughjson)
 - [gallery](./assignments/gallery)
+- [javascript2](./assignments/javascript2)
