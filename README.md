@@ -15,3 +15,4 @@
 - [looping through json](./assignments/loopingthroughjson)
 - [gallery](./assignments/gallery)
 - [javascript2](./assignments/javascript2)
+- [javascipt_functions](./assingments/javascript_functions)
