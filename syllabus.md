@@ -3,20 +3,18 @@
 
 **Core 1: Interaction**
 
-|                   |                                                                                           |
-|-------------------|-------------------------------------------------------------------------------------------|
-| **Program**       | School of Art, Media, and Technology:                                                     |
-|                   | Communication Design                                                                      |
-| **CRN**           | 3066                                                                                      |
-| **Semester**      | Spring 22                                                                                 |
-| **Meeting Day**   | Monday                                                                                    |
-| **Meeting Time**  | 7:00pm                                                                                    |
-| **Building/Room** | Academic Entrance 63 Fifth Ave **Room**: L101                                             |
-| **Zoom**          | [Zoom link](https://newschool.zoom.us/j/99911590408?pwd=TXduc1BITWNGeUFnY0tlZ1h5QTZHdz09) |
-| Password          | 839047                                                                                    |
-| **Instructor**    | Ariel Churi                                                                               |
-| **Email**         | churia@newschool.edu                                                                      |
-| **Class Website** | https://github.com/arielchuri/coreInteraction                                             |
+|                   |                                               |
+|-------------------|-----------------------------------------------|
+| **Program**       | School of Art, Media, and Technology:         |
+|                   | Communication Design                          |
+| **CRN**           | 3066                                          |
+| **Semester**      | Spring 24                                     |
+| **Meeting Day**   | Monday                                        |
+| **Meeting Time**  | 4:00pm                                        |
+| **Building/Room** | 6 E. 16th St., #605                           |
+| **Instructor**    | Ariel Churi                                   |
+| **Email**         | churia@newschool.edu                          |
+| **Class Website** | https://github.com/arielchuri/coreInteraction |
 
 ## Course Description
 
@@ -140,9 +138,9 @@ By the end of the semester, students will be able to:\
 
 ## Assessment Criteria
 
-15% Attendance & Class Participation
+15% Attendance & Class Participation & *Lab Journal*
 
-15% Unit 1 Projects: Interview, Expressive Text, All HTML
+15% Unit 1 Projects: Recipe HTML, Recipe Design
 
 15% Unit 2 Projects: Flags, 25 Variations
 
@@ -159,36 +157,31 @@ All CD classes adhere to the same program and university policies:
 
 ## Weekly Outline
 
-| week + date       | Activity                                                                                           | Due   |
-|-------------------|----------------------------------------------------------------------------------------------------|-------|
-| **Week 1** 01/24  | ONLINE                                                                                             |       |
-|                   | Class community agreements, expectations on attendance and communication, Canvas site walkthrough. |       |
-|                   | *Recipe*                                                                                           | 01/28 |
-| **Week 2** 01/31  | ONLINE                                                                                             |       |
-|                   | *Recipe Style*                                                                                     | 02/10 |
-| **Week 3** 02/07  | *Expressive Text*                                                                                  | 02/10 |
-| **Week 4** 02/14  | *Flags*                                                                                            | 02/25 |
-| 02/21             | PRESIDENT'S DAY                                                                                    |       |
-| **Week 5** 02/28  | *Stories as Networks*                                                                              | 03/04 |
-| **Week 6** 03/07  | *Living Collection*                                                                                | 03/11 |
-| 03/14             | SPRING BREAK                                                                                       |       |
-| **Week 7** 03/21  | *Mad Lib*                                                                                          | 04/01 |
-| **Week 8** 03/28  | ONLINE                                                                                             |       |
-|                   | Midterm Check-ins                                                                                  |       |
-| **Week 9** 04/04  | *Textbot*                                                                                          | 04/08 |
-| **Week 10** 04/11 | *Git Poetry*                                                                                       | 04/15 |
-| **Week 11** 04/18 | ONLINE                                                                                             |       |
-|                   | *Pitch Deck*                                                                                       | 04/25 |
-| **Week 12** 04/25 | Working Session                                                                                    | 05/09 |
-| **Week 13** 05/02 | Working Session                                                                                    |       |
-| **Week 14** 05/09 | *Learning Portfolio Reflection Post*                                                               | 05/16 |
-| **Week 15** 05/16 | Final Presentation                                                                                 |       |
+| week + date       | Activity                                                                                           | Due |
+|-------------------|----------------------------------------------------------------------------------------------------|-----|
+| **Week 1** 01/22  | ONLINE                                                                                             |     |
+|                   | Class community agreements, expectations on attendance and communication, Canvas site walkthrough. |     |
+|                   | *Recipe*                                                                                           |     |
+|                   | *Recipe Style*                                                                                     |     |
+| **Week 2** 01/29  | ONLINE                                                                                             |     |
+| **Week 3** 02/05  | *Expressive Text*                                                                                  |     |
+| **Week 4** 02/14  | *Flags*                                                                                            |     |
+| 02/19             | PRESIDENT'S DAY                                                                                    |     |
+| **Week 5** 02/26  | *Stories as Networks*                                                                              |     |
+| **Week 6** 03/04  |                                                                                                    |     |
+| 03/11             | SPRING BREAK                                                                                       |     |
+| **Week 7** 03/18  | *Mad Lib*                                                                                          |     |
+| **Week 8** 03/25  | ONLINE                                                                                             |     |
+|                   | Midterm Check-ins                                                                                  |     |
+| **Week 9** 04/01  | *Textbot*                                                                                          |     |
+| **Week 10** 04/08 | Individual Meetings Online (No in-person class), *Git Poetry*                                      |     |
+| **Week 11** 04/15 | *Pitch Deck*                                                                                       |     |
+| **Week 12** 04/22 | Working Session                                                                                    |     |
+| **Week 13** 04/29 | Working Session                                                                                    |     |
+| **Week 14** 05/06 | *Learning Portfolio Reflection Post*                                                               |     |
+| **Week 15** 05/15 | Final Presentation                                                                                 |     |
 
 ## Materials and Supplies
 
-Laptop
-
-Camera
-
-Software: Git/GitHub, Atom, Figma
+Software: Visual Studio Code, Chrome browser, Codeium AI, Figma
 
