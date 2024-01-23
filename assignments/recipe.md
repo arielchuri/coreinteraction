@@ -30,3 +30,5 @@ A website is directory (folder). Inside the folder is a text file named *index.h
             </ol>
         </body>
     </html>
+
+Here are the files I created with you in class. [https://github.com/arielchuri/coreinteraction/tree/master/classFiles/class01](https://github.com/arielchuri/coreinteraction/tree/master/classFiles/class01)
