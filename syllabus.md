@@ -159,11 +159,11 @@ All CD classes adhere to the same program and university policies:
 
 | week + date       | Activity                                                                                           | Due |
 |-------------------|----------------------------------------------------------------------------------------------------|-----|
-| **Week 1** 01/22  | ONLINE                                                                                             |     |
+| **Week 1** 01/22  |                                                                                                    |     |
 |                   | Class community agreements, expectations on attendance and communication, Canvas site walkthrough. |     |
 |                   | *Recipe*                                                                                           |     |
-|                   | *Recipe Style*                                                                                     |     |
-| **Week 2** 01/29  | ONLINE                                                                                             |     |
+|                   |                                                                                                    |     |
+| **Week 2** 01/29  | *Recipe Style*                                                                                     |     |
 | **Week 3** 02/05  | *Expressive Text*                                                                                  |     |
 | **Week 4** 02/14  | *Flags*                                                                                            |     |
 | 02/19             | PRESIDENT'S DAY                                                                                    |     |
