@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox : Page 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        div {
+            border: 1px dotted gray;
+        }
+        .block {
+            background-color: lightgray;
+            min-height: 50px;
+            min-width: 50px;
+            margin: 12px;
+        }
+        .bigblock {
+            width: 100%;
+        }
+        .pink {
+            background-color: pink;
+        }
+        .teal {
+            background-color: teal;
+        }
+        .gold {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
+        <div>FLEXBOX DEMO</div>
+        <div>Page 2</div>
+        <div>
+            <div><a href="index.html">page 1</a></div>
+            <div>page 2</div>
+        </div>
+    </div>
+        <h3>DIV 1</h3>
+    <div>
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+    </div>
+<h3>DIV 2</h3>
+    <div style="display: flex; flex-direction: row; justify-content: center;">
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+    </div>
+        <h3>DIV 3</h3>
+    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+    </div>
+        <h3>DIV 4</h3>
+    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <div class="block pink"> </div>
+        <div style="display:flex; flex-direction: row;">
+            <div class="block teal"> </div>
+            <div class="block gold"> </div>
+        </div>
+    </div>
+<h3>DIV 5</h3>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; height: 150px">
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+    </div>
+<h3>DIV 6</h3>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: stretch; height: 150px">
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+    </div>
+<h3>DIV 7</h3>
+    <div style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap;">
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+        <div class="block pink"> </div>
+        <div class="block teal"> </div>
+        <div class="block gold"> </div>
+    </div>
+<h3>DIV 8</h3>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: stretch; height: 150px">
+        <div class="block pink bigblock"> </div>
+        <div class="block teal bigblock"> </div>
+        <div class="block gold bigblock"> </div>
+    </div>
+<h3>DIV 9</h3>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; align-items: stretch; height: 150px">
+        <div class="block pink bigblock" style="flex: 1"> </div>
+        <div class="block teal bigblock" style="flex: 1"> </div>
+        <div class="block gold" style="flex: 2"> </div>
+    </div>
+</body>
