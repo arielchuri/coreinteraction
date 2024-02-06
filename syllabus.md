@@ -164,7 +164,7 @@ All CD classes adhere to the same program and university policies:
 |                   | *Recipe*                                                                                           |     |
 |                   |                                                                                                    |     |
 | **Week 2** 01/29  | *Recipe Style*                                                                                     |     |
-| **Week 3** 02/05  | *Expressive Text*                                                                                  |     |
+| **Week 3** 02/05  | *Recipe Style*                                                                                |     |
 | **Week 4** 02/14  | *Flags*                                                                                            |     |
 | 02/19             | PRESIDENT'S DAY                                                                                    |     |
 | **Week 5** 02/26  | *Stories as Networks*                                                                              |     |
