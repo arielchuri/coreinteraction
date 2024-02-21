@@ -28,3 +28,27 @@ strong {
   font-weight: normal;
   color: deeppink;
 }
+
+img {
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  gap: 24px;
+}
+
+/* media query for small browsers */
+@media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+  img {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .gallery {
+    display: none;
+  }
+}
