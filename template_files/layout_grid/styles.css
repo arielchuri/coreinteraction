@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+body {
+  /* font-family: monospace; */
+  font-size: 100%;
+   background-color: papayawhip;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  height: 32px;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+main {
+  max-width: 1400px;
+  margin: auto;
+  height: 100%;
+  /* insures that main fills up the remaining space on the page */
+  background-color: white;
+}
+
+footer {
+  height: 64px;
+  /* insure footer stays on the bottom on the page */
+  width: 100%;
+   background-color: blanchedalmond;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 32px;
+}
+
+article {
+  flex: 2;
+}
+
+aside {
+}
+
+dt {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 16px;
+    line-height: 24px;
+  }
+ section {
+   flex-direction: row;
+ } 
+}
