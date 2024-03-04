@@ -10,6 +10,10 @@ const header= `
         </ul>
     <nav>
 </header>
+<label for="checkbox">
+<!-- <i class="fa fa-bars menu-icon"></i> -->
+<i class="fas fa-caret-down menu-icon"></i>
+</label>
 `
 
 document.querySelector("body").insertAdjacentHTML("afterbegin", header);
