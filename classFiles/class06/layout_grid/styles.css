@@ -24,6 +24,23 @@ header {
   background-color: blanchedalmond;
 }
 
+nav {
+  height: 32px;
+  width: 100%;
+  background-color: pink;
+}
+
+#home .home, #projects .projects, #contact .contact
+{
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 main {
   max-width: 1400px;
   margin: auto;
