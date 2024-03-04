@@ -19,34 +19,46 @@ img {
 }
 
 header {
-  height: 32px;
   width: 100%;
-  background-color: blanchedalmond;
+  max-width: 1400px;
+  margin: auto;
 }
 
 nav {
-  height: 32px;
+  height: 64px;
   width: 100%;
-  background-color: pink;
 }
 
 #home .home, #projects .projects, #contact .contact
 {
-  font-weight: 800;
+  color: hotpink;
 }
 
 nav ul {
+  height: 100%;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 16px;
+  gap: 16px;
 }
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+
 
 main {
   max-width: 1400px;
   margin: auto;
   height: 100%;
-  /* insures that main fills up the remaining space on the page */
-  background-color: white;
 }
 
 footer {
@@ -63,7 +75,6 @@ p {
 section {
   display: flex;
   flex-direction: column;
-  padding: 32px;
   gap: 32px;
 }
 
@@ -76,6 +87,11 @@ aside {
 
 dt {
   font-weight: bold;
+}
+
+@media screen and (min-width: 1400px) {
+nav ul {
+  margin-left: 0px;
 }
 
 @media screen and (min-width: 768px) {
