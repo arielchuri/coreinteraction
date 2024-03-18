@@ -11,9 +11,9 @@ const header= `
     <!-- Menu -->
     <nav class="nav">
         <ul class="menu">
-            <li><a href="#">Home</a> </li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html" class="home">Home</a> </li>
+            <li><a href="gallery.html" class="gallery">Gallery</a></li>
+            <li><a href="about.html" class="about">About</a></li>
         </ul>
     </nav>
 </div>

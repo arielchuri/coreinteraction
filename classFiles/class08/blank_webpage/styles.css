@@ -19,6 +19,10 @@ body{
     font-family: "Inter", sans-serif;
     color: var(--black)
 }
+
+img {
+    max-width: 100%;
+    height: auto;}
 a{
     text-decoration: none;
 }
@@ -115,9 +119,13 @@ ul{
     top:0;
 }
 
+#home .home, #gallery .gallery, .about .about {
+    color: hotpink;
+}
+
 .block {
   margin: 24px;
-  max-width: 768px;
+  max-width: 1200px;
 }
 
 p {
@@ -133,9 +141,9 @@ footer {
 }
 
 /* Responsiveness */
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .headercontainer, .footercontainer {
-    max-width: 768px;
+    max-width: 1200px;
     margin:auto;
   }
   .block {
