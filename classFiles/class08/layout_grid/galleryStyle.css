@@ -1,0 +1,16 @@
+.gallery-container {
+  /* Set the display property to grid for the .gallery-container class */
+  display: grid;
+  /* Define the grid template columns to repeat and adjust based on available space */
+  /* Define the minimum and maximum size for the grid items */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  /* Set the minimum and maximum size for the grid rows */
+  grid-auto-rows: minmax(100px, auto);
+  /* Set the gap between the columns */
+  grid-column-gap: 32px;
+  /* Set the gap between the rows */
+  grid-row-gap: 32px;
+}
+
+.gallery-item .caption {
+}
