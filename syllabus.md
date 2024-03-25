@@ -170,8 +170,8 @@ All CD classes adhere to the same program and university policies:
 | **Week 5** 02/26  | *Stories as Networks*                                                                              |     |
 | **Week 6** 03/04  |                                                                                                    |     |
 | 03/11             | SPRING BREAK                                                                                       |     |
-| **Week 7** 03/18  | *Mad Lib*                                                                                          |     |
-| **Week 8** 03/25  | ONLINE                                                                                             |     |
+| **Week 7** 03/18  | *Gallery Site*                                                                                          |     |
+| **Week 8** 03/25  | Figma                                                                                             |     |
 |                   | Midterm Check-ins                                                                                  |     |
 | **Week 9** 04/01  | *Textbot*                                                                                          |     |
 | **Week 10** 04/08 | Individual Meetings Online (No in-person class), *Git Poetry*                                      |     |
