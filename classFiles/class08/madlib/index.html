@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+  </header>
+  <main>
+    <section>
+      <div>
+        <input type="text" id="userInput" placeholder="Enter text here">
+        <button onclick="displayText()">Submit</button>
+      </div>
+      <div id="output">
+      </div>
+    </section>
+    <section>
+      <form id="myForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+          <span class="error" id="nameError"></span><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+          <span class="error" id="emailError"></span><br><br>
+          <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section>
+      <input type="range" min="0" max="255" value="255" class="slider" id="mySlider">
+      <div class="display" id="sliderValue"></div>
+         <div class="color-box" id="colorBox"></div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="myscript.js"></script>
+</body>
+</html>
