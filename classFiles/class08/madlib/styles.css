@@ -48,3 +48,6 @@ section {
   height: 100px;
   background: red;
 }
+#story {
+  visibility: hidden;
+}
