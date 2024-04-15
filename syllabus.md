@@ -164,14 +164,14 @@ All CD classes adhere to the same program and university policies:
 |                   | *Recipe*                                                                                           |     |
 |                   |                                                                                                    |     |
 | **Week 2** 01/29  | *Recipe Style*                                                                                     |     |
-| **Week 3** 02/05  | *Recipe Style*                                                                                |     |
+| **Week 3** 02/05  | *Recipe Style*                                                                                     |     |
 | **Week 4** 02/14  | *Flags*                                                                                            |     |
 | 02/19             | PRESIDENT'S DAY                                                                                    |     |
 | **Week 5** 02/26  | *Stories as Networks*                                                                              |     |
 | **Week 6** 03/04  |                                                                                                    |     |
 | 03/11             | SPRING BREAK                                                                                       |     |
-| **Week 7** 03/18  | *Gallery Site*                                                                                          |     |
-| **Week 8** 03/25  | Figma                                                                                             |     |
+| **Week 7** 03/18  | *Gallery Site*                                                                                     |     |
+| **Week 8** 03/25  | Figma                                                                                              |     |
 |                   | Midterm Check-ins                                                                                  |     |
 | **Week 9** 04/01  | *Textbot*                                                                                          |     |
 | **Week 10** 04/08 | Individual Meetings Online (No in-person class), *Git Poetry*                                      |     |

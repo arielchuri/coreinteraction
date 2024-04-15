@@ -18,7 +18,7 @@ function appendData(data) {
     console.log(i);
     var div = document.createElement("div");
     div.classList.add("gallerydiv");
-    div.innerHTML = '<img src="' + data[i].filename + '" class="galleryphoto"><p class="caption">' + data[i].title + '</p>';
+    div.innerHTML = '<img src="' + data[i].filename + '" class="galleryphoto"><ul class="caption"><li><strong>Name: </strong>' + data[i].title + '</li><li><strong>Size: </strong>' +  data[i].size + '</li><li><strong>Location: </strong>' + data[i].location + '</li> </ul>';
     mainContainer.appendChild(div);
   }
 }

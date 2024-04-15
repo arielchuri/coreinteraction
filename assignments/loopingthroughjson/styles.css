@@ -1,18 +1,39 @@
 body {
     margin: auto;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 .gallerydiv {
-    width: 30%;
+    border: 1px solid lightgray;
+    padding: 8px;   
+    /* dropshadow */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
 }
 
 .galleryphoto {
     width: 100%;
+    /* make all photos have the same aspect ratio */
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 6px;
 }
 
 #data_holder {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+  display: grid;
+  /* Define the grid template columns to repeat and adjust based on available space */
+  /* Define the minimum and maximum size for the grid items */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  /* Set the minimum and maximum size for the grid rows */
+  grid-auto-rows: minmax(100px, auto);
+  /* Set the gap between the columns */
+  grid-column-gap: 32px;
+  /* Set the gap between the rows */
+  grid-row-gap: 32px;
+  margin: 32px;
+}
+
+ul.caption {
+  list-style-type: none;
+  padding-left: 0px;
 }

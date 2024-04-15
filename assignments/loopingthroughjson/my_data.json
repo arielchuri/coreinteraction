@@ -2,16 +2,85 @@
     {
         "id": "1",
         "filename": "nudi01.jpg",
-        "title": "Doe"
+        "title": "Doe",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
     },
     {
         "id": "2",
         "filename": "nudi02.jpg",
-        "title": "Peterson"
+        "title": "Peterson",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
     },
     {
         "id": "3",
         "filename": "nudi03.jpg",
-        "title": "Hansen"
+        "title": "Hansen",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "4",
+        "filename": "nudi01.jpg",
+        "title": "Doe",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "2",
+        "filename": "nudi02.jpg",
+        "title": "Peterson",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "3",
+        "filename": "nudi03.jpg",
+        "title": "Hansen",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "1",
+        "filename": "nudi01.jpg",
+        "title": "Doe",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "2",
+        "filename": "nudi02.jpg",
+        "title": "Peterson",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "3",
+        "filename": "nudi03.jpg",
+        "title": "Hansen",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "1",
+        "filename": "nudi01.jpg",
+        "title": "Doe",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "2",
+        "filename": "nudi02.jpg",
+        "title": "Peterson",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
+    },
+    {
+        "id": "3",
+        "filename": "nudi03.jpg",
+        "title": "Hansen",
+        "size": "2MB",
+        "location": "Atlantic Ocean"
     }
 ]

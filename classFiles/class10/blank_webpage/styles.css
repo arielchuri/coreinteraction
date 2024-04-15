@@ -1,0 +1,102 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* color variables */
+:root {
+  --Hotpink: #FB3C8B;
+  --Dragonfruit: #FF0063;
+  --Fire: #eb4848;
+  --Orange: #ff9600;
+  --Gold: #ffd400;
+  --Yellow: #f0ff00;
+  --Chartruese: #aff000;
+  --Green: #1fd900;
+  --Sky: #10d0e0;
+  --Aqua: #34C8B6;
+  --Indigo: #2e9ef5;
+  --Violet: #9636f8;
+  --Black: #3c3c3c;
+  --White: #ffffff;
+  --White: #f3ecde;
+  --Gray1: color-mix(in srgb, var(--Black), var(--White) 80%);
+  --Gray2: color-mix(in srgb, var(--Black), var(--White) 50%);
+  --Gray3: color-mix(in srgb, var(--Black), var(--White) 20%);
+  --foroundColor: var(--Black);
+  --backgroundColor: var(--White);
+  --primaryColor: var(--Hotpink);
+  --secondaryColor: var(--Indigo);
+  --tertiaryColor: var(--Violet);
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: var(--backgroundColor);
+  color: var(--foroundColor);
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+a {
+  color: var(--linkColor);
+  /*text-decoration: none;*/
+}
+
+a:hover {
+  color: var(--linkHoverColor);
+}
+
+a:visited {
+  color: var(--linkVisitedColor);
+}
+
+a:active {
+  color: var(--linkActiveColor);
+}
+
+article {
+  margin: 4em 0px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.lyrics {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+.lyrics p {
+  margin-bottom: 2em;
+}
+
+/* media query for tablet */
+@media (min-width: 640px) {
+  main {
+    padding: 0 36px;
+  }
+
+  .prose {
+    column-count: 2;
+  }
+}
+
+/* media query for desktop */
+@media (min-width: 1024px) {
+  main {
+    padding: 0 64px;
+  }
+
+  .prose {
+    column-count: 3;
+  }
+}

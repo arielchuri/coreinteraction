@@ -1,0 +1,51 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  padding: 24px;
+}
+p {
+  margin-bottom: 1em;
+}
+p.prose {
+  column-count: 3;
+  column-gap: 1em;
+}
+hr {
+  border-top: 1px dotted gray;
+}
+p.source {
+  margin-top: 3em;
+  font-style: italic;
+  color: gray;
+  font-size: .8em;
+}
+article {
+  margin-bottom: 3em;
+}
+h1 {
+  margin-bottom: 0em;
+}
+p.author {
+  margin-top: 0em;
+}
+/* media query for tablet */
+@media screen and (max-width: 1000px) {
+  p.prose {
+    column-count: 2;
+  }
+}
+/* media query for mobile */
+@media screen and (max-width: 600px) {
+  p.prose {
+    column-count: 1;
+  }
+}
