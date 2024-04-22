@@ -20,8 +20,7 @@
   --Indigo: #2e9ef5;
   --Violet: #9636f8;
   --Black: #3c3c3c;
-  --White: #ffffff;
-  --White: #f3ecde;
+  --White: #f8f3ca;
   --Gray1: color-mix(in srgb, var(--Black), var(--White) 80%);
   --Gray2: color-mix(in srgb, var(--Black), var(--White) 50%);
   --Gray3: color-mix(in srgb, var(--Black), var(--White) 20%);
@@ -68,6 +67,15 @@ article {
 
 p {
   margin-bottom: 1em;
+}
+
+article.centered {
+  /* centered with flex box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .lyrics {

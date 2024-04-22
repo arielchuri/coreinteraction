@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Place Title of Page Here</title>
+  <!-- normalize.css is a freeley available css that unifies the default styles across browsers before you customize it for your design -->
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+  </header>
+  <nav>
+  </nav>
+  <main>
+    <section>
+      <article>
+        <div class="circle slideinleft"></div>
+        <pre>
+div class="circle slideinleft"
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  border-radius: 50%;
+  animation: slideinleft 2s;
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+        </pre>
+      </article>
+      <article>
+        <div class="square"></div>
+        <pre>
+div class="square"
+
+.square {
+  width: 90px;
+  height: 90px;
+  background-color: lightseagreen;
+  transition: background-color 1s;
+}
+
+.square:hover {
+  animation: colorchange 2s;
+  background-color: royalblue;
+}
+
+.square:not(:hover) {
+  animation: colorchange 2s;
+  background-color: lightseagreen;
+}
+        </pre>
+      </article>
+      <article>
+        <div class="abox"></div>
+        <pre>
+div class="abox"
+
+.abox {
+ width: 100px;
+ height: 100px;
+ background-color: mediumslateblue;
+ transition: width 2s, height 2s;
+}
+
+.abox:hover {
+ width: 200px;
+ height: 50px;
+}
+        </pre>
+      </article>
+      <article>
+        <div style="height: 200px;">
+        <div class="bbox"></div>
+        </div>
+        <pre>
+div class="bbox"
+
+@keyframes shapechange {
+  0% {
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.bbox {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background-color: rosybrown;
+  animation: shapechange 2s infinite;
+}
+        </pre>
+      </article>
+      <article>
+        <div class="cbox"></div>
+        <pre>
+div class="cbox"
+
+.cbox {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  mix-blend-mode: multiply;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</pre>
+      </article>
+      <article>
+        <div id="html-spinner"></div>
+        <pre>
+div id="html-spinner"
+
+#html-spinner{
+  width:40px;
+  height:40px;
+  border:4px solid pink;
+  border-top:4px solid hotpink;
+  border-radius:50%;
+}
+
+#html-spinner{
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1.2s;
+  -webkit-animation-name: rotate;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  
+  -moz-transition-property: -moz-transform;
+  -moz-animation-name: rotate; 
+  -moz-animation-duration: 1.2s; 
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  
+  transition-property: transform;
+  animation-name: rotate; 
+  animation-duration: 1.2s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+        </pre>
+      </article>
+      <article>
+        <div class="loader">
+  <span class="loader__element"></span>
+  <span class="loader__element"></span>
+  <span class="loader__element"></span>
+</div>
+
+<pre>
+class="loader">
+span class="loader__element"
+span class="loader__element"
+span class="loader__element"
+
+.loader {
+	overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0; left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;  
+	z-index: 100000;
+}
+
+.loader__element {
+  border-radius: 100%;
+  border: 5px solid gray;
+  margin: 10px;
+}
+
+.loader__element:nth-child(1) {
+  animation: preloader .6s ease-in-out alternate infinite;
+}
+.loader__element:nth-child(2) {
+  animation: preloader .6s ease-in-out alternate .2s infinite;
+}
+
+.loader__element:nth-child(3) {
+  animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+
+@keyframes preloader {
+  100% { transform: scale(2); }
+}
+
+</pre>
+      </article>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="myscript.js"></script>
+</body>
+
+</html>
