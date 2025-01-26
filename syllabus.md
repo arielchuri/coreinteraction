@@ -1,45 +1,42 @@
 # Syllabus
+
 **PSAM 1028**
 
-**Core 1: Interaction**
+**CD Foundations: Interaction**
 
 |                   |                                               |
-|-------------------|-----------------------------------------------|
+| ----------------- | --------------------------------------------- |
 | **Program**       | School of Art, Media, and Technology:         |
 |                   | Communication Design                          |
 | **CRN**           | 3066                                          |
-| **Semester**      | Spring 24                                     |
+| **Semester**      | Spring 25                                     |
 | **Meeting Day**   | Monday                                        |
 | **Meeting Time**  | 4:00pm                                        |
-| **Building/Room** | 6 E. 16th St., #605                           |
+| **Building/Room** | Academic Entrance 63 Fifth Ave.               |
 | **Instructor**    | Ariel Churi                                   |
 | **Email**         | churia@newschool.edu                          |
 | **Class Website** | https://github.com/arielchuri/coreInteraction |
 
 ## Course Description
 
-Core 1: Interaction is designed to introduce students to programming as
-a creative medium---as a way of making and exploring. The coursework
-focuses on developing a vocabulary of interaction design principles
-which can then be applied across a range of platforms. Students are
-encouraged to experiment with various media, tools, and techniques,
-ultimately producing a portfolio of interactive and visual projects
-designed for the screen. An emphasis is placed on typography as it
-applies to a screen context, research-based problem solving and a
-learning-through-making approach to technical skill building. Historical
-and current interaction design precedents will be discussed.
+In this course students will be introduced to programming as a creative medium— as a way of making and exploring.
+The coursework focuses on developing a vocabulary of interaction design principles which can then be applied across a range of platforms.
+Students are encouraged to experiment with various media, tools, and techniques, ultimately producing a portfolio of interactive and visual projects designed for the screen.
+An emphasis is placed on typography as it applies to a screen context, research-based problem solving and a learning-through-making approach to technical skill building.
+Historical and current interaction design precedents will be discussed.
+This course is intended for non-communication design majors, as an introduction to the discipline.
 
 ## Readings
 
-1.  Casey Reas, Chandler McWilliams, and LUST, *Form+Code in Design,
-    Art, and Architecture*
-2.  Kimberly Elam, *Geometry of Design*
-3.  Armin Hofmann, *Graphic Design Manual*
-4.  Robert Bringhurst, *The Elements of Typographic Style*
-5.  Frank Chimero, *The Shape of Design*
-6.  Leah Buley, *The User Experience Team of One*
-7.  Compiled by Laurel Schwulst, *Very Interactive Library*
-8.  Paul Ford, *What is Code?*
+1.  Casey Reas, Chandler McWilliams, and LUST, _Form+Code in Design,
+    Art, and Architecture_
+2.  Kimberly Elam, _Geometry of Design_
+3.  Armin Hofmann, _Graphic Design Manual_
+4.  Robert Bringhurst, _The Elements of Typographic Style_
+5.  Frank Chimero, _The Shape of Design_
+6.  Leah Buley, _The User Experience Team of One_
+7.  Compiled by Laurel Schwulst, _Very Interactive Library_
+8.  Paul Ford, _What is Code?_
 
 ## Course Outline
 
@@ -98,7 +95,7 @@ online. We'll take the work we've done this semester and explore
 self-publishing and making our work public by putting our work on the
 internet.
 
-In weeks 10-15 we will focus on:
+### In weeks 10-15 we will focus on:
 
 -   Putting a website online (hosting, Github, custom domains)
 -   Accessibility
@@ -155,33 +152,31 @@ All CD classes adhere to the same program and university policies:
 
 [*https://docs.google.com/document/d/1u358io8doX_SVVMGqIM_oH5V0OIccneYu4Ww-uE55QM/edit?usp=sharing*](https://docs.google.com/document/d/1u358io8doX_SVVMGqIM_oH5V0OIccneYu4Ww-uE55QM/edit?usp=sharing)
 
-## Weekly Outline
-
-| week + date       | Activity                                                                                           | Due |
-|-------------------|----------------------------------------------------------------------------------------------------|-----|
-| **Week 1** 01/22  |                                                                                                    |     |
-|                   | Class community agreements, expectations on attendance and communication, Canvas site walkthrough. |     |
-|                   | *Recipe*                                                                                           |     |
-|                   |                                                                                                    |     |
-| **Week 2** 01/29  | *Recipe Style*                                                                                     |     |
-| **Week 3** 02/05  | *Recipe Style*                                                                                     |     |
-| **Week 4** 02/14  | *Flags*                                                                                            |     |
-| 02/19             | PRESIDENT'S DAY                                                                                    |     |
-| **Week 5** 02/26  | *Stories as Networks*                                                                              |     |
-| **Week 6** 03/04  |                                                                                                    |     |
-| 03/11             | SPRING BREAK                                                                                       |     |
-| **Week 7** 03/18  | *Gallery Site*                                                                                     |     |
-| **Week 8** 03/25  | Figma                                                                                              |     |
-|                   | Midterm Check-ins                                                                                  |     |
-| **Week 9** 04/01  | *Textbot*                                                                                          |     |
-| **Week 10** 04/08 | Individual Meetings Online (No in-person class), *Git Poetry*                                      |     |
-| **Week 11** 04/15 | *Pitch Deck*                                                                                       |     |
-| **Week 12** 04/22 | Working Session                                                                                    |     |
-| **Week 13** 04/29 | Working Session                                                                                    |     |
-| **Week 14** 05/06 | *Learning Portfolio Reflection Post*                                                               |     |
-| **Week 15** 05/15 | Final Presentation                                                                                 |     |
-
 ## Materials and Supplies
 
-Software: Visual Studio Code, Chrome browser, Codeium AI, Figma
+Software: A code editor, Firefox Developer Edition
 
+## Weekly Outline
+
+| week + date       | Activity                                                      | Due |
+| ----------------- | ------------------------------------------------------------- | --- |
+| **Week 01** 01/27 |                                                               |     |
+|                   | Class community agreements, expectations on attendance        |     |
+|                   | and communication, Canvas site walkthrough.                   |     |
+|                   | _Recipe_                                                      |     |
+| **Week 02** 02/03 | _Recipe Style_                                                |     |
+| **Week 03** 02/10 | _Recipe Style_                                                |     |
+| 02/17             | No class _President's Day_                                    |     |
+| **Week 04** 02/24 | _Stories as Networks_                                         |     |
+| **Week 05** 03/03 | No in-person class. Scheduled, 1 on 1 zoom meetings.          |     |
+| 03/10             | No class _SPRING BREAK_                                       |     |
+| **Week 06** 03/17 | _Gallery Site_                                                |     |
+| **Week 07** 03/31 | Figma                                                         |     |
+|                   | Midterm Check-ins                                             |     |
+| **Week 08** 04/07 | _Textbot_                                                     |     |
+| **Week 09** 04/14 | Individual Meetings Online (No in-person class), _Git Poetry_ |     |
+| **Week 10** 04/21 | _Pitch Deck_                                                  |     |
+| **Week 11** 04/28 | Working Session                                               |     |
+| **Week 13** 05/05 | Working Session                                               |     |
+| **Week 14** 05/12 | _Learning Portfolio Reflection Post_                          |     |
+| **Week 15** 05/13 | Final Presentation                                            |     |
