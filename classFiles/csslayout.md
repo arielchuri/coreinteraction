@@ -206,4 +206,58 @@ By the end of the lesson, students will be able to:
 </html>
 ```
 
+## Class Code
 
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+
+    </style>
+</head>
+
+<body <div style="background-color: aliceblue; max-width: 400px; margin: auto">
+    <main style="
+        background-color: white;
+        height: 100vh;
+        padding: 16px;
+        display: flex
+    ">
+
+        <div style="background-color: coral;padding: 6px;">left</div>
+        <div style="background-color: lightblue;padding: 6px;">right
+            <!--flex box with 3 columns-->
+            <div style="
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 8px;
+        background-color: lightgoldenrodyellow  ;
+    ">
+                <div style="
+            background-color: lightcoral;
+            flex: 1;
+            padding: 16px;
+        ">1111111111111111111</div>
+                <div style="
+            background-color: lightgreen;
+            flex: 1;
+            padding: 16px;
+        ">22222222</div>
+                <div style="
+            background-color: lightblue;
+            flex: 1;
+            padding: 16px;
+        ">3</div>
+
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
+```
