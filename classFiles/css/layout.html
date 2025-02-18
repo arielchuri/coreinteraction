@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Flexbox Guide</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+      }
+      main {
+        max-width: 1000px;
+        margin: auto;
+      }
+      .flex-container {
+        display: flex;
+        border: 2px solid black;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .flex-item {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 5px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .container {
+        border: 2px solid black;
+        padding: 10px;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .box {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 5px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .relative {
+        position: relative;
+        top: 10px;
+        left: 20px;
+      }
+      .absolute {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .fixed {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+      }
+      .sticky {
+        position: sticky;
+        top: 0;
+        background: yellow;
+      }
+      .float-left {
+        float: left;
+        width: 30%;
+      }
+      .float-right {
+        float: right;
+        width: 30%;
+      }
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CSS Flexbox</h1>
+
+      <h2>1. Enable Flexbox</h2>
+      <p>To use Flexbox, set <code>display: flex;</code> on a container.</p>
+      <div class="flex-container" style="display: flex">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+
+      <h2>2. Flex Direction</h2>
+      <p>Controls the primary axis (row or column):</p>
+      <ul>
+        <li><code>row</code> (default) - left to right.</li>
+        <li><code>row-reverse</code> - right to left.</li>
+        <li><code>column</code> - top to bottom.</li>
+        <li><code>column-reverse</code> - bottom to top.</li>
+      </ul>
+
+      <div
+        class="flex-container"
+        style="display: flex; flex-direction: row-reverse"
+      >
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+
+      <h2>3. Justify Content</h2>
+      <p>Aligns items along the main axis:</p>
+      <ul>
+        <li><code>flex-start</code> (default) - items at the beginning.</li>
+        <li><code>flex-end</code> - items at the end.</li>
+        <li><code>center</code> - items in the center.</li>
+        <li><code>space-between</code> - even spacing, no gap at edges.</li>
+        <li><code>space-around</code> - even spacing, gaps at edges.</li>
+        <li><code>space-evenly</code> - equal space everywhere.</li>
+      </ul>
+
+      <div
+        class="flex-container"
+        style="display: flex; justify-content: space-around"
+      >
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+      </div>
+
+      <h2>4. Align Items</h2>
+      <p>Aligns items along the cross axis:</p>
+      <ul>
+        <li><code>stretch</code> (default) - items fill container height.</li>
+        <li><code>flex-start</code> - items align at the top.</li>
+        <li><code>flex-end</code> - items align at the bottom.</li>
+        <li><code>center</code> - items align in the middle.</li>
+        <li><code>baseline</code> - items align by text baseline.</li>
+      </ul>
+
+      <div
+        class="flex-container"
+        style="display: flex; align-items: center; height: 100px"
+      >
+        <div class="flex-item" style="height: 50px">Item 1</div>
+        <div class="flex-item" style="height: 70px">Item 2</div>
+        <div class="flex-item" style="height: 30px">Item 3</div>
+      </div>
+
+      <h2>5. Flex Wrap</h2>
+      <p>Controls whether items wrap to a new row or column:</p>
+      <ul>
+        <li><code>nowrap</code> (default) - items stay in one row.</li>
+        <li><code>wrap</code> - items wrap to a new row.</li>
+        <li><code>wrap-reverse</code> - items wrap in reverse order.</li>
+      </ul>
+
+      <div
+        class="flex-container"
+        style="display: flex; flex-wrap: wrap; width: 300px"
+      >
+        <div class="flex-item" style="width: 100px">Item 1</div>
+        <div class="flex-item" style="width: 100px">Item 2</div>
+        <div class="flex-item" style="width: 100px">Item 3</div>
+        <div class="flex-item" style="width: 100px">Item 4</div>
+      </div>
+
+      <h2>6. Align Content</h2>
+      <p>Controls spacing when items wrap to new rows:</p>
+      <ul>
+        <li><code>flex-start</code> - packed at the top.</li>
+        <li><code>flex-end</code> - packed at the bottom.</li>
+        <li><code>center</code> - centered.</li>
+        <li><code>space-between</code> - even spacing.</li>
+        <li><code>space-around</code> - space around each row.</li>
+        <li><code>stretch</code> (default) - rows stretch.</li>
+      </ul>
+
+      <div
+        class="flex-container"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          height: 200px;
+        "
+      >
+        <div class="flex-item" style="width: 100px">Item 1</div>
+        <div class="flex-item" style="width: 100px">Item 2</div>
+        <div class="flex-item" style="width: 100px">Item 3</div>
+        <div class="flex-item" style="width: 100px">Item 4</div>
+      </div>
+
+      <h2>7. Flex Grow, Shrink, and Basis</h2>
+      <p>These control item sizing:</p>
+      <ul>
+        <li><code>flex-grow</code>: Defines how much an item should expand.</li>
+        <li>
+          <code>flex-shrink</code>: Defines how much an item should shrink.
+        </li>
+        <li><code>flex-basis</code>: Sets a starting size.</li>
+      </ul>
+
+      <div class="flex-container" style="display: flex">
+        <div class="flex-item" style="flex-grow: 1">Grow 1</div>
+        <div class="flex-item" style="flex-grow: 2">Grow 2</div>
+        <div class="flex-item" style="flex-grow: 1">Grow 1</div>
+      </div>
+
+      <h2>8. Order Property</h2>
+      <p>Controls the order of flex items:</p>
+
+      <div class="flex-container" style="display: flex">
+        <div class="flex-item" style="order: 3">Item 1 (order 3)</div>
+        <div class="flex-item" style="order: 1">Item 2 (order 1)</div>
+        <div class="flex-item" style="order: 2">Item 3 (order 2)</div>
+      </div>
+
+      <h1>CSS Positioning and Float</h1>
+
+      <h2>1. Static Position (Default)</h2>
+      <p>
+        All elements are positioned <code>static</code> by default, meaning they
+        follow the normal document flow.
+      </p>
+
+      <div class="container">
+        <div class="box">Static Position (Default)</div>
+      </div>
+
+      <h2>2. Relative Positioning</h2>
+      <p>
+        <code>relative</code> positioning moves an element relative to its
+        normal position.
+      </p>
+
+      <div class="container">
+        <div class="box relative">Relative Positioned</div>
+      </div>
+
+      <h2>3. Absolute Positioning</h2>
+      <p>
+        <code>absolute</code> removes the element from normal flow and positions
+        it relative to the nearest <code>relative</code> ancestor (or the
+        viewport if none exists).
+      </p>
+
+      <div class="container">
+        <div class="box absolute">Absolute Positioned</div>
+      </div>
+
+      <h2>4. Fixed Positioning</h2>
+      <p>
+        <code>fixed</code> positions an element relative to the viewport. It
+        stays in place when scrolling.
+      </p>
+
+      <div class="container">
+        <div class="box fixed">Fixed Positioned</div>
+      </div>
+
+      <h2>5. Sticky Positioning</h2>
+      <p>
+        <code>sticky</code> behaves like relative until a certain scroll point,
+        then it sticks to that position.
+      </p>
+
+      <div class="box sticky">Sticky Positioned (Scroll Down)</div>
+
+      <h2>6. Floating Elements</h2>
+      <p>
+        <code>float</code> is used to position elements to the left or right,
+        allowing text to wrap around them.
+      </p>
+
+      <div class="container clearfix">
+        <div class="box float-left">Float Left</div>
+        <p>
+          Text wrapping around the floated element. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <div class="container clearfix">
+        <div class="box float-right">Float Right</div>
+        <p>
+          Text wrapping around the floated element. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <h2>7. Clearing Floats</h2>
+      <p>
+        To prevent float issues, use <code>clearfix</code> or
+        <code>clear: both;</code>.
+      </p>
+
+      <div class="container clearfix">
+        <div class="box float-left">Float Left</div>
+        <div class="box float-right">Float Right</div>
+      </div>
+      <div style="height: 400px"></div>
+    </main>
+  </body>
+</html>
