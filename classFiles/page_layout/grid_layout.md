@@ -32,6 +32,8 @@ By the end of the lesson, students will be able to create a structured webpage l
 **Activity:** Students create a basic **HTML structure** for a webpage.  
 
 #### **HTML Starter Code:**
+
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,6 +83,7 @@ By the end of the lesson, students will be able to create a structured webpage l
 
 </body>
 </html>
+```
 
 #### **Key Takeaways:**
 - The `.container` is a **Flexbox container**.
@@ -94,6 +97,8 @@ By the end of the lesson, students will be able to create a structured webpage l
 Students modify their code to create a **multi-row layout**.
 
 #### **Updated CSS:**
+
+```css
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +138,7 @@ Students modify their code to create a **multi-row layout**.
         <div class="box">Row 2, Column 3</div>
     </div>
 </div>
+```
 
 #### **Key Takeaways:**
 - Rows are created using **nested Flexbox containers**.
@@ -143,6 +149,8 @@ Students modify their code to create a **multi-row layout**.
 
 ### **4. Advanced Layout Techniques (20 minutes)**
 #### **Floating Elements for Sidebar Layout**
+
+```css
 .sidebar {
     float: left;
     width: 30%;
@@ -167,6 +175,7 @@ Students modify their code to create a **multi-row layout**.
     <div class="sidebar">Sidebar</div>
     <div class="content">Main Content</div>
 </div>
+```
 
 - **Using `float`** creates a traditional sidebar layout.
 - **Adding `.clearfix`** prevents collapsing issues.
