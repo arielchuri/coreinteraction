@@ -28,6 +28,8 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **2. Setting Up a Basic Grid (20 minutes)**  
 #### **HTML:**
+
+```html
 <div class="grid-container">
     <div class="grid-item">1</div>
     <div class="grid-item">2</div>
@@ -36,8 +38,10 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
     <div class="grid-item">5</div>
     <div class="grid-item">6</div>
 </div>
+```
 
 #### **CSS:**
+```css
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -52,6 +56,7 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
     text-align: center;
     border: 1px solid #ccc;
 }
+```
 
 #### **Key Takeaways:**
 - `display: grid;` enables **CSS Grid**.  
@@ -62,11 +67,13 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **3. Controlling Column and Row Sizes (15 minutes)**  
 #### **CSS:**
+```css
 .grid-container {
     display: grid;
     grid-template-columns: 100px 200px 1fr;
     grid-template-rows: 50px 100px auto;
 }
+```
 
 #### **Key Takeaways:**
 - Fixed sizes (`100px, 200px`) define **specific** widths.  
@@ -77,21 +84,24 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **4. Using `repeat()`, `minmax()`, and `auto-fit/auto-fill` (20 minutes)**  
 #### **CSS:**
+```css
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
     grid-template-rows: repeat(2, minmax(100px, auto)); /* Rows grow with content */
 }
-
+```
 #### **Key Takeaways:**
 - `repeat(3, 1fr);` is shorthand for `1fr 1fr 1fr`.  
 - `minmax(100px, auto);` prevents shrinking below 100px.  
 
 #### **Dynamic Responsive Grids with Auto-fit:**
+```css
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+```
 
 - `auto-fit` **shrinks** empty columns when there aren’t enough items.  
 
@@ -99,10 +109,12 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **5. Grid Item Placement and Spanning (20 minutes)**  
 #### **CSS:**
+```css
 .grid-item:first-child {
     grid-column: span 2;
     grid-row: span 2;
 }
+```
 
 #### **Key Takeaways:**
 - `grid-column: span 2;` makes the item **wider**.  
