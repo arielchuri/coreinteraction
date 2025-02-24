@@ -115,7 +115,6 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
     grid-row: span 2;
 }
 ```
-
 #### **Key Takeaways:**
 - `grid-column: span 2;` makes the item **wider**.  
 - `grid-row: span 2;` makes the item **taller**.  
@@ -124,10 +123,12 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **6. Explicit Placement with `grid-column` & `grid-row` (15 minutes)**  
 #### **CSS:**
+```css
 .grid-item:nth-child(1) {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
+```
 
 #### **Key Takeaways:**
 - `grid-column: 1 / 3;` places the item **from column 1 to 3**.  
@@ -137,6 +138,7 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **7. Named Grid Areas for Complex Layouts (20 minutes)**  
 #### **CSS:**
+```css
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -160,6 +162,7 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 .footer {
     grid-area: footer;
 }
+```
 
 #### **Key Takeaways:**
 - `grid-template-areas` simplifies layout readability.  
@@ -169,22 +172,26 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 
 ## **8. Aligning Items and Justification (15 minutes)**  
 #### **CSS:**
+```css
 .grid-container {
     display: grid;
     justify-items: center;
     align-items: center;
 }
+```
 
 #### **Key Takeaways:**
 - `justify-items: center;` centers items **horizontally**.  
 - `align-items: center;` centers items **vertically**.  
 
 #### **Aligning the Entire Grid:**
+```css
 .grid-container {
     display: grid;
     justify-content: center;
     align-content: center;
 }
+```
 
 - `justify-content: center;` centers the **whole grid**.  
 - `align-content: center;` centers rows **within the grid**.  
@@ -194,6 +201,7 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 ## **9. Creating a Modern Gallery Page (30 minutes)**  
 
 ### **HTML:**
+```html
 <div class="gallery">
     <div class="item item-1">1</div>
     <div class="item item-2">2</div>
@@ -202,8 +210,10 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
     <div class="item item-5">5</div>
     <div class="item item-6">6</div>
 </div>
+```
 
 ### **CSS:**
+```css
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -225,6 +235,7 @@ By the end of this lesson, students will be able to use **CSS Grid** to create c
 .item-3 {
     grid-row: span 2;
 }
+```
 
 #### **Key Takeaways:**
 - `auto-fit` makes the gallery **responsive**.  
