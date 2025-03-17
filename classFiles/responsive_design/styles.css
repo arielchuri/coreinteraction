@@ -1,28 +1,98 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: hotpink;
 }
 
 .container {
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 100vh;
+    padding-top: 16px;
 }
 
-@media only screen and (max-width: 600px) {
-    /* Styles for phones */
-    body {
-        background-color: lightblue;
+
+.inter-type {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    .response{
+        display: flex;
+       flex-direction: column;
+       height: 100vh;
     }
+
+    #important {
+       flex: 2;
+       flex-order: 1;
+    }
+    #not-important {
+       flex: 1;
+    }
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+@media only screen and (min-width: 601px)  {
     /* Styles for tablets */
     body {
         background-color: lightgreen;
     }
+    .container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    h1 {
+    }
+    .response{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .feature {
+        width: 50%;
+    }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1025px)  {
     /* Styles for desktop */
     body {
         background-color: lightcoral;
+    }
+    .container  {
+        max-width: 1200px;
+        margin:auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: white;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (min-width: 1601px) {
+    /* Styles for desktop */
+    body {
+        background-color: honeydew ;
+    }
+    .container  {
+        max-width: none;
+        margin:auto;
+        padding-left: 48px;
+        padding-right: 48px;
+        background-color: white;
+    }
+    h1 {
+        font-size: 8rem;
     }
 }

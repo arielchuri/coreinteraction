@@ -5,33 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centered Content with Breakpoints</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body class="inter-type">
     <div class="container">
         <div>
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple example of centered content with breakpoints.</p>
+            <h1>Welcome welcome to My Website</h1>
+             
+            <p>This is a simple example of centered content with breakpoints.</p>
         </div>
-        <div style="background-color: #f1f1f1;">
-            <h2>Responsive Design</h2>
-            <p>Resize the browser window to see the effect.</p>
-
-        </div>
-        <div style="background-color: antiquewhite;">
-            <h2>Responsive Design</h2>
-            <p>Resize the browser window to see the effect.</p>
-        </div>
-        <div style="background-color: peru;">
+        <div class="response">
+                    <div class="feature" style="background-color: #f1f1f1;">
+            
             <h2>Responsive Design</h2>
             <p>Resize the browser window to see the effect.</p>
         </div>
-        <div style="background-color: cadetblue;">
+        <div class="feature" style="background-color: antiquewhite;">
             <h2>Responsive Design</h2>
             <p>Resize the browser window to see the effect.</p>
         </div>
-        <div style="background-color: forestgreen">
+        <div id="important" class="feature" style="background-color: peru;">
+            <h2>Important</h2>
+            <p>Resize the browser window to see the effect.</p>
+        </div>
+        <div id="not-important" class="feature" style="background-color: cadetblue;">
             <h2>Responsive Design</h2>
             <p>Resize the browser window to see the effect.</p>
+        </div>
+        <div class="feature" style="background-color: forestgreen">
+            <h2>Responsive Design</h2>
+            <p>Resize the browser window to see the effect.</p>
+        </div>
         </div>
     </div>
 </body>
