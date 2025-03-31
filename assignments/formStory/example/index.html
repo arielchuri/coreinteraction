@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Story</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize.css is a freeley available css that unifies the default styles across browsers before you customize it for your design -->
+    <link rel="stylesheet" type="text/css" href="modern-normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body class="graphpaper">
+    <!-- This is for the header and menu -->
+    <main class="container">
+      <header class="centerrow">Blorg!</header>
+      <div class="row centerrow">
+        <div class="card">
+          <form id="myForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+
+            <!-- Radio Buttons (User Type) -->
+            <div class="form-group">
+              <label>Familiar</label>
+              <div class="radio-group">
+                <div class="radio-choice">
+                  <input
+                    type="radio"
+                    id="cat"
+                    name="familiar"
+                    value="cat"
+                    checked
+                  />
+                  <label for="user">Cat</label>
+                </div>
+                <div class="radio-choice">
+                  <input type="radio" id="owl" name="familiar" value="owl" />
+                  <label for="admin">Owl</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dropdown (Select Role) -->
+            <div class="form-group">
+              <label for="role">Select Role</label>
+              <select id="role">
+                <option value="Thief">Thief</option>
+                <option value="Sorceress">Sorceress</option>
+                <option value="Barbarian">Barbarian</option>
+              </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn">Execute</button>
+          </form>
+        </div>
+      </div>
+      <div id="story" class="row centerrow">
+        <p>
+          Lrem ipsum
+          <em
+            ><span class="nameSpan"></span> the <span class="roleSpan"></span
+          ></em>
+          dolor sit amet, consectetur adipiscing elit. Nam sit amet turpis ac
+          lectus lacinia tristique. Integer dictum metus vitae nisl elementum,
+          eu interdum ipsum fringilla. Integer pharetra lobortis maximus. Cras
+          rutrum orci vel facilisis auctor. Cras commodo neque in eros eleifend,
+          sit <span class="familiarSpan"></span> amet interdum neque elementum.
+          Nullam ligula metus, rutrum et nibh at, feugiat pulvinar nisi.
+          <span class="roleSpan"></span> Etiam consectetur felis sed enim
+          fringilla condimentum. Vestibulum ultrices augue et dolor tristique, a
+          pretium nibh tincidunt. Etiam dictum urna vel congue egestas.
+        </p>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="myscript.js"></script>
+  </body>
+</html>

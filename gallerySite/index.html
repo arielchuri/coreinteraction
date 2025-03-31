@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Place Title of Page Here</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="lightbox.css" rel="stylesheet" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <style>
     .galleryPic {
-      min-width: 200px;
-      max-width: 250px;
+      max-width: 350px;
       margin: 1rem;
+      width:100%;
     }
     img {
       width: 100%;
@@ -19,9 +21,11 @@
   <body>
     <div style="display:flex; flex-wrap:wrap; ">
       <div class='galleryPic'>
-        <img src="wisp.jpg"  />
+        <a href="wisp.jpg" data-lightbox="image-1" data-title="My caption">
+              <img src="wisp.jpg"  />
+        </a>
       </div>
-      <div class='galleryPic'>
+      <div id="hero" class='galleryPic'>
         <img src="wisp.jpg"  />
       </div>
       <div class='galleryPic'>
@@ -58,5 +62,7 @@
         <img src="wisp.jpg"  />
       </div>
     </div>
+    <script src="myscript.js"></script>
+    <script src="lightbox.js"></script>
   </body>
 </html>

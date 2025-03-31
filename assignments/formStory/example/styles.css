@@ -1,0 +1,147 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  font-family: "Inter", sans-serif;
+  color: dimgray;
+}
+
+.container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: floralwhite;
+  border: 1px solid skyblue;
+}
+
+header {
+  font-size: 5rem;
+  font-weight: 800;
+  color: hotpink;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+p {
+  max-width: 65ch;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.row {
+  margin-bottom: 64px;
+}
+
+.centerrow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  border: gainsboro solid 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+select {
+  background-color: skyblue;
+  border-radius: 8px;
+  border-width: 0;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.radio-group label {
+  font-size: 14px;
+  color: #555;
+  margin-left: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.radio-choice {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+#cat,
+#owl {
+  width: 64px;
+}
+
+.nameSpan,
+.familiarSpan,
+.roleSpan {
+  color: hotpink;
+  font-weight: bold;
+}
+
+#story {
+  display: none;
+}
+
+/* Tablet. */
+@media screen and (min-width: 480px) {
+}
+
+/* Desktop. */
+@media screen and (min-width: 769px) {
+}
+
+.graphpaper {
+  background-color: floralwhite;
+  opacity: 1;
+  background-image:
+    linear-gradient(skyblue 1px, transparent 1px),
+    linear-gradient(to right, skyblue 1px, floralwhite 1px);
+  background-size: 10px 10px;
+}

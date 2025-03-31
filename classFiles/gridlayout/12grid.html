@@ -1,64 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>12-Column Grid</title>
     <style>
-        :root {
-            --gutter: 12px;
-            --columns: 12;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        .container {
-            display: grid;
-            grid-template-columns: repeat(var(--columns), 1fr);
-            gap: var(--gutter);
-            padding: var(--gutter);
-            max-width: 1200px;
-            margin: auto;
-        }
-        
-        .col {
-            background: #ddd;
-            padding: 20px;
-            text-align: center;
-            border-radius: 4px;
-        }
-        
-        /* Example column spans */
-        .col-1 { grid-column: span 1; }
-        .col-2 { grid-column: span 2; }
-        .col-3 { grid-column: span 3; }
-        .col-4 { grid-column: span 4; }
-        .col-6 { grid-column: span 6; }
-        .col-12 { grid-column: span 12; }
-        
-        @media (max-width: 768px) {
-            .col { grid-column: span 12; }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="col col-12">Full Width</div>
-        <div class="col col-6">Half</div>
-        <div class="col col-6">Half</div>
-        <div class="col col-4">One Third</div>
-        <div class="col col-4">One Third</div>
-        <div class="col col-4">One Third</div>
-        <div class="col col-3">One Quarter</div>
-        <div class="col col-3">One Quarter</div>
-        <div class="col col-3">One Quarter</div>
-        <div class="col col-3">One Quarter</div>
-    </div>
-</body>
-</html>
+      :root {
+        --gutter: 48px;
+        --columns: 12;
+      }
 
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        background-color: white;
+        padding-top: 48px;
+        padding-bottom: 48px;
+      }
+
+      .grid12 {
+        display: grid;
+        grid-template-columns: repeat(var(--columns), 1fr);
+        gap: var(--gutter);
+        padding: var(--gutter);
+      }
+
+      .col {
+        background: #ddd;
+        padding: 20px;
+        text-align: center;
+        border-radius: 4px;
+      }
+
+      /* Example column spans */
+      .col-1 {
+        grid-column: span 1;
+      }
+      .col-2 {
+        grid-column: span 2;
+      }
+      .col-3 {
+        grid-column: span 3;
+      }
+      .col-4 {
+        grid-column: span 4;
+      }
+      .col-6 {
+        grid-column: span 6;
+      }
+      .col-12 {
+        grid-column: span 12;
+      }
+      .divLeft {
+        grid-column: span 6;
+      }
+      .divRight {
+        grid-column: span 6;
+        grid-column-end: 13;
+      }
+      h2:first-child {
+        margin-top: 0;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .col {
+          grid-column: span 12;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" style="">
+      <div class="grid12">
+        <div class="divLeft" style="">
+          <img src="cats.jpg" />
+        </div>
+        <div class="divRight" style="">
+          <h2>lorem</h2>
+          <p>
+            ipsum is simply dummy text of the printing and typesetting industry.
+            lorem ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. it has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. it was popularised in the 1960s
+            with the release of letraset sheets containing lorem ipsum passages,
+            and more recently with desktop publishing software like aldus
+            pagemaker including versions of lorem ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="">
+      <div class="grid12">
+        <div class="divLeft" style="">
+          <h2>lorem</h2>
+          <p>
+            ipsum is simply dummy text of the printing and typesetting industry.
+            lorem ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. it has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. it was popularised in the 1960s
+            with the release of letraset sheets containing lorem ipsum passages,
+            and more recently with desktop publishing software like aldus
+            pagemaker including versions of lorem ipsum.
+          </p>
+        </div>
+        <div class="divRight" style="">
+          <img src="cats.jpg" />
+        </div>
+      </div>
+    </div>
+    <div
+      style="
+        overflow: hidden;
+        height: 400px;
+        background-image: url(&quot;cats.jpg&quot;);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      "
+    >
+      <div style="position: absolute; display: flex">
+        <div style="">HERO TEXT</div>
+      </div>
+    </div>
+    <div class="container" style="">
+      <div class="grid12">
+        <div class="divLeft" style="">
+          <img src="cats.jpg" />
+        </div>
+        <div class="divRight" style="">
+          <h2>lorem</h2>
+          <p>
+            ipsum is simply dummy text of the printing and typesetting industry.
+            lorem ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. it has survived not only
+            five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. it was popularised in the 1960s
+            with the release of letraset sheets containing lorem ipsum passages,
+            and more recently with desktop publishing software like aldus
+            pagemaker including versions of lorem ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="">
+      <div class="grid12">
+        <div class="" style="grid-column: span 12">
+          <img src="cats.jpg" />
+          <p style="grid-column: span 12"><strong>This is a caption</strong></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
