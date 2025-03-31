@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations Showcase</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .animation-box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            position: relative;
+        }
+
+        /* Moving rounded corner with one sharp corner */
+        .rounded-move {
+            background-color: steelblue;
+            animation: moveCorners 4s infinite linear;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 10% 50%);
+        }
+        @keyframes moveCorners {
+            0% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 10% 50%); }
+            25% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 10%); }
+            50% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 90% 50%); }
+            75% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 50% 90%); }
+            100% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 10% 50%); }
+        }
+
+        /* Mix Blend Mode Multiply Effect */
+        .blend-container {
+            display: flex;
+            gap: 10px;
+        }
+        .blend-box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background-color: rgba(255, 0, 0, 0.6);
+            mix-blend-mode: multiply;
+            animation: blendMove 3s infinite alternate;
+        }
+        .blend-box:nth-child(2) {
+            background-color: rgba(0, 0, 255, 0.6);
+            animation-delay: 1.5s;
+        }
+        @keyframes blendMove {
+            from { transform: translateX(0); }
+            to { transform: translateX(50px); }
+        }
+
+        /* More animations */
+        .bounce { background-color: coral; animation: bounce 2s infinite; }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .rotate { background-color: purple; animation: rotate 4s linear infinite; }
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .expand { background-color: green; animation: expand 3s infinite alternate; }
+        @keyframes expand {
+            from { transform: scale(1); }
+            to { transform: scale(1.5); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="animation-box rounded-move">Moving Corners</div>
+        <div class="blend-container">
+            <div class="blend-box"></div>
+            <div class="blend-box"></div>
+        </div>
+        <div class="animation-box bounce">Bounce</div>
+        <div class="animation-box rotate">Rotate</div>
+        <div class="animation-box expand">Expand</div>
+    </div>
+</body>
+</html>
+

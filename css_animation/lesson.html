@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .button {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        transition: background-color 0.5s ease-in-out;
+      }
+      .button:hover {
+        background-color: red;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: relative;
+        animation: bounce 2s infinite alternate;
+      }
+      @keyframes bounce {
+        0% {
+          top: 0px;
+        }
+        100% {
+          top: 100px;
+        }
+      }
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid lightgray;
+        border-top: 5px solid blue;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      div {
+        margin-bottom: 12rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button class="button">Hover Me</button>
+    </div>
+
+    <div class="box"></div>
+    <div class="spinner"></div>
+  </body>
+</html>
