@@ -89,14 +89,23 @@
       .blend-mode {
         background-color: red;
         mix-blend-mode: multiply;
-        animation: blendEffect 3s infinite alternate;
+        animation: blendEffect 3s infinite;
       }
       @keyframes blendEffect {
         0% {
-          background-color: red;
+          background-color: dodgerblue;
+        }
+        25% {
+          background-color: deeppink;
+        }
+        50% {
+          background-color: yellow;
+        }
+        75% {
+          background-color: chartreuse;
         }
         100% {
-          background-color: blue;
+          background-color: dodgerblue;
         }
       }
 
@@ -107,8 +116,13 @@
       .cube div {
         width: 100px;
         height: 100px;
-        background: linear-gradient(45deg, purple, blue);
+        background-image: url("cat.png");
+
+        background-size: cover;
+        background-position: center;
+
         transform: rotateY(0deg);
+        transform: rotateX(0deg);
         animation: rotateCube 3s infinite linear;
       }
       @keyframes rotateCube {
@@ -122,8 +136,8 @@
 
       /* Hover Animation */
       .hover-effect:hover {
-        transform: scale(1.2) rotate(10deg);
-        transition: 0.3s ease-in-out;
+        transform: scale(1.2) rotate(60deg);
+        transition: 0.6s ease-in;
       }
 
       /* Typing Effect */
@@ -176,6 +190,7 @@
       .blend-container2 {
         display: flex;
         gap: 10px;
+        perspective: 600px;
       }
       .blend-box {
         width: 100px;
@@ -190,26 +205,30 @@
         animation-delay: 1.5s;
       }
       @keyframes blendMove {
-        from {
-          transform: translateX(0);
+        0% {
+          transform: rotateY(0deg);
         }
-        to {
-          transform: translateX(50px);
+        100% {
+          transform: rotateY(360deg);
         }
       }
 
       /* More animations */
       .bounce {
         background-color: coral;
-        animation: bounce 2s infinite;
+        animation: bounce 0.7s infinite alternate ease-out;
+        top: 100px;
+        left: 50px;
+        transform: scaleY(0px);
       }
       @keyframes bounce {
-        0%,
-        100% {
+        0% {
           transform: translateY(0);
+          height: 70px;
         }
-        50% {
-          transform: translateY(-20px);
+        100% {
+          transform: translateY(-120px);
+          height: 100px;
         }
       }
 
@@ -449,6 +468,70 @@
         animation-iteration-count: infinite;
         animation-timing-function: linear;
       }
+
+      .shape {
+        flex: 0 0 auto;
+        color: #fff;
+        margin-bottom: 6rem;
+        text-align: center;
+        align-self: center;
+        font-weight: 500;
+        mix-blend-mode: multiply;
+      }
+
+      .shapeanim {
+        transform: translateX(0px);
+        animation: moveShape 3s infinite alternate;
+      }
+      .shapeanim:nth-child(2) {
+        animation-delay: 1.5s;
+      }
+      .shapeanim:nth-child(3) {
+        animation-delay: 3s;
+      }
+
+      @keyframes moveShape {
+        0% {
+          transform: translateX(0px);
+        }
+        100% {
+          transform: translateX(60vw);
+        }
+      }
+
+      .triangle {
+        font-size: 18px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        line-height: 235px;
+        width: 242px;
+        height: 210px;
+        transform: translateY(-6px);
+      }
+      .squares {
+        border-radius: 1%;
+        font-size: 18px;
+        line-height: calc(1000px / 5);
+        width: calc(1000px / 5);
+        height: calc(1000px / 5);
+      }
+      .circle {
+        border-radius: 50%;
+        font-size: 18px;
+        line-height: calc(1000px / 4.6);
+        width: calc(1000px / 4.6);
+        height: calc(1000px / 4.6);
+      }
+
+      .yellow {
+        background-color: #fad13e;
+      }
+      .red {
+        background-color: #df4c40;
+      }
+      .blue {
+        color: #fff;
+        background-color: #005eac;
+      }
     </style>
   </head>
   <body>
@@ -497,7 +580,7 @@
             <h3>Hover Effect</h3>
             <div
               class="animated-item hover-effect"
-              style="background-color: yellow"
+              style="background-color: palevioletred"
             ></div>
           </div>
         </div>
@@ -541,26 +624,52 @@
       </div>
       <!-- ----- -->
     </div>
-    <div class="containerxx">
-      <div class="row">
-        <div class="square"></div>
-      </div>
-      <div class="row">
-        <div class="square" id="square2"></div>
-      </div>
-      <div class="row">
-        <div class="square"></div>
-        <div class="square" id="square2"></div>
-      </div>
-      <div class="row">
-        <div class="square"></div>
-        <div class="square" id="square3"></div>
-      </div>
-      <div class="row">
-        <div class="square"></div>
-        <div class="square" id="square4"></div>
+
+    <div
+      class="flex"
+      style="
+        width: 100%;
+        min-height: 60vh;
+        overflow: visible;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      "
+    >
+      <div
+        class="flex"
+        style="width: 100%; margin-right: 3%; overflow: visible"
+      >
+        <div class="flex" style="display: flex; overflow: visible">
+          <div
+            class="shape shapeanim red triangle"
+            style="position: relative; left: 0px"
+          ></div>
+          <div
+            class="shape shapeanim yellow squares"
+            style="position: relative; left: 0px"
+          ></div>
+          <div
+            class="shape shapeanim blue circle"
+            style="position: relative; left: 0px"
+          ></div>
+        </div>
       </div>
     </div>
+
+    <svg
+      class="animate-bounce"
+      style="width: 100px; height: 120px"
+      viewBox="20 20 60 70"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-linejoin="bevel"
+    >
+      <path d="M 50 22 V 88" />
+      <path d="M 78 60 50 88 22 60" />
+    </svg>
+
     <script>
       function showNotification() {
         const notification = document.getElementById("notification");
