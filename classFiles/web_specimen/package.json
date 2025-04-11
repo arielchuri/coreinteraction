@@ -1,0 +1,21 @@
+{
+  "name": "web_specimen",
+  "version": "1.0.0",
+  "description": "A webpage style guide that presents common web layouts and modules to help a designer choose, type, spacing, colors, borders and, much more.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here'"
+  },
+  "keywords": [
+    "style guide",
+    "responsive",
+    "web design"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

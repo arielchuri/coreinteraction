@@ -1,0 +1,171 @@
+/* Main styles for the webpage */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mobile {
+  display: block;
+}
+#tablet {
+  display: none;
+}
+#desktop {
+  display: none;
+}
+/* Body styles */
+body {
+  font-family: var(--font-family, Arial, sans-serif);
+  line-height: 1.6;
+  color: var(--text-color, #333);
+  background-color: var(--background-color, #fff);
+}
+
+/* Grid layout for responsive design */
+.mygrid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 1fr;
+}
+
+/* Responsive typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+/* Layout styles */
+.container {
+  padding: var(--spacing-medium, 16px);
+}
+
+/* Flexbox for layout */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Spacing utility classes */
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+
+/* Breakpoints for responsive design */
+@media (min-width: 800px) {
+   .container {
+    max-width: 600px;
+    margin: auto;
+  }
+ /* Tablet styles */
+  #tablet {
+    display: block;
+  }
+  #mobile {
+    display: none;
+  }
+  #desktop {
+    display: none;
+  }
+  .mygrid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on tablet */
+    gap: var(--spacing-medium, 16px);
+  }
+  .colspan-1-12,
+  .colspan-2-12,
+  .colspan-3-12,
+  .colspan-4-12,
+  .colspan-5-12,
+  .colspan-6-12 {
+    grid-column: span 2; /* Span 1 column */
+  }
+  .colspan-7-12,
+  .colspan-8-12,
+  .colspan-9-12,
+  .colspan-10-12,
+  .colspan-11-12,
+  .colspan-12-12 {
+    grid-column: span 1; /* Span 7 columns */
+  }
+}
+
+@media (min-width: 1400px) {
+  /* Desktop styles */
+  #desktop {
+    display: block;
+  }
+    #tablet {
+        display: none;
+    }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .mygrid {
+    grid-template-columns: repeat(12, 1fr); /* Equal width columns */
+    gap: var(--spacing-medium, 16px);
+  }
+  .colspan-1-12 {
+    grid-column: span 1; /* Span 1 column */
+  }
+  .colspan-2-12 {
+    grid-column: span 2; /* Span 2 columns */
+  }
+  .colspan-3-12 {
+    grid-column: span 3; /* Span 3 columns */
+  }
+  .colspan-4-12 {
+    grid-column: span 4; /* Span 4 columns */
+  }
+  .colspan-5-12 {
+    grid-column: span 5; /* Span 5 columns */
+  }
+  .colspan-6-12 {
+    grid-column: span 6; /* Span 6 columns */
+  }
+  .colspan-7-12 {
+    grid-column: span 7; /* Span 7 columns */
+  }
+  .colspan-8-12 {
+    grid-column: span 8; /* Span 8 columns */
+  }
+  .colspan-9-12 {
+    grid-column: span 9; /* Span 9 columns */
+  }
+  .colspan-10-12 {
+    grid-column: span 10; /* Span 10 columns */
+  }
+  .colspan-11-12 {
+    grid-column: span 11; /* Span 11 columns */
+  }
+  .colspan-12-12 {
+    grid-column: span 12; /* Span 12 columns */
+  }
+}
+
+@media (min-width: 2000px) {
+  /* Giant styles */
+}
