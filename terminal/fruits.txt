@@ -1,0 +1,6 @@
+strawberry
+banana
+guava
+passion fruit
+blueberry
+kiwi

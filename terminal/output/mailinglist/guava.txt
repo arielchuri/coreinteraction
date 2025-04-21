@@ -1,0 +1,7 @@
+guava
+lion
+tiger
+bear
+emo
+ocelot
+gazelle
