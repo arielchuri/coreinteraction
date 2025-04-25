@@ -9,6 +9,9 @@ FOOTER_FILE="partials/footer.html"
 
 # Define the output directory
 OUTPUT_DIR="output"
+# 
+# Define the input directory
+INPUT_DIR="input"
 
 # Check if all partial files exist
 for FILE in "$HEAD_FILE" "$HEADER_FILE" "$FOOTER_FILE"; do
@@ -22,7 +25,7 @@ done
 mkdir -p "$OUTPUT_DIR"
 
 # Loop through all .html files in the current directory
-for HTML_FILE in *.html; do
+for HTML_FILE in "$INPUT_DIR"/*.html; do
   # Skip if no .html files are found
   if [[ ! -f "$HTML_FILE" ]]; then
     echo "No HTML files found in the current directory."
@@ -43,6 +46,6 @@ for HTML_FILE in *.html; do
   ' "$HTML_FILE" > "$TEMP_FILE"
 
   # Move the processed file to the output directory
-  mv "$TEMP_FILE" "$OUTPUT_DIR/$HTML_FILE"
-  echo "Processed: $HTML_FILE -> $OUTPUT_DIR/$HTML_FILE"
+  mv "$TEMP_FILE" "$OUTPUT_DIR/$(basename "$HTML_FILE")"
+  echo "Processed: $HTML_FILE -> $OUTPUT_DIR/$(basename "$HTML_FILE")"
 done
