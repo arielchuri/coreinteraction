@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hall</title>
+    <meta name="description" content="360&deg; Image - A-Frame" />
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="hall.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-camera>
+        <a-cursor></a-cursor>
+      </a-camera>
+
+      <!-- Example of linking to an external page -->
+      <a-link
+        href="index.html"
+        color="#4444dd"
+        title="Go outside"
+        position="-5 2 5"
+        scale=".5 .5 .5"
+        look-at="[camera]"
+      >
+      <a-link
+        href=".html"
+        color="#4444dd"
+        title="Go outside"
+        position="-5 2 5"
+        scale=".5 .5 .5"
+        look-at="[camera]"
+      >
+      </a-link>
+      <a-link
+        href="walls.html"
+        color="#4444dd"
+        title="See the walls"
+        position="5 2 -5"
+        scale=".5 .5 .5"
+        look-at="[camera]"
+      >
+      </a-link>
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame" />
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sky src="dubrovnik.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-camera>
+        <a-cursor></a-cursor>
+      </a-camera>
+
+      <a-sphere position=".25 1 -5" radius="0.25" color="#EF2D5E"></a-sphere>
+      <a-sphere position="0 2 -4" radius="0.25" color="#2D5Eef"></a-sphere>
+      <a-sphere position="-.25 3 -3" radius="0.25" color="#2Def5E"></a-sphere>
+
+      <!-- Example of linking to an external page -->
+      <a-link
+        href="hall.html"
+        color="#4444dd"
+        title="Go inside"
+        position="5 2 -5"
+        scale=".5 .5 .5"
+        look-at="[camera]"
+      >
+      </a-link>
+
+      <a-link
+        href="walls.html"
+        color="#4444dd"
+        title="See the walls"
+        position="5 2 5"
+        scale=".5 .5 .5"
+        look-at="[camera]"
+      >
+      </a-link>
+
+      <a-text
+        font="kelsonsans"
+        value="Dubrovnik"
+        width="6"
+        position="-2.5 1.25 -4.0"
+        rotation="0 15 0"
+      ></a-text>
+    </a-scene>
+  </body>
+</html>
