@@ -1,16 +1,15 @@
 **PSAM 1028**  
 **CD Foundations: Interaction**
 
-| Program | School of Art, Media, and Technology: Communication Design |
-| :---- | :---- |
-| **CRN** | TBD |
-| **Semester** | Spring 2026 |
-| **Meeting Day** | Monday |
-| **Meeting Time** | 4:00pm - 6:40pm |
-| **Building/Room** | TBD |
-| **Instructor** | Ariel Churi |
-| **Email** | churia@newschool.edu |
-| **Class Website** | https://github.com/arielchuri/coreInteraction |
+| Program | School of Art, Media, and Technology: Communication Design |  |  |  |
+| :---- | :---- | ----- | ----- | ----- |
+| **CRN** |  |  |  |  |
+| **Semester** |  |  |  |  |
+| **Meeting Day** |  |  |  |  |
+| **Meeting Time** |  |  |  |  |
+| **Building/Room/Zoom** |  |  |  |  |
+| **Instructor & Email** |  |  |  |  |
+| **Class Website** |  |  |  |  |
 
 **Course Description**  
 CD Foundations: Interaction is designed to introduce students to programming as a creative medium—as a way of making and exploring. The coursework focuses on developing a vocabulary of interaction design principles which can then be applied across a range of platforms. Students are encouraged to experiment with various media, tools, and techniques, ultimately producing a portfolio of interactive and visual projects designed for the screen. An emphasis is placed on typography as it applies to a screen context, research-based problem solving and a learning-through-making approach to technical skill building. Historical and current interaction design precedents will be discussed. This course is intended for non-communication design majors, as an introduction to the discipline.
@@ -212,25 +211,110 @@ Laptop
 Camera  
 Software: Git/GitHub, VS Code, Figma
 
-**Weekly Schedule**
+**Sample Schedule** 
 
-| Week | Date | Unit | Topics | Assignments Due | Assignments Given |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **Week 1** | Asynchronous | Working Methods | **Intro:** Syllabus, Class community agreements<br>**Lecture:** Computers, files, and networks<br>**Workshop:** Analog Programming | | Interview |
-| **Week 2** | Feb 2 | Working Methods | **Lecture:** Tools, file management, version control<br>**Workshop:** Git Poetry | | Interview (cont) |
-| **Week 3** | Feb 9 | Working Methods | **Lecture:** HTML/CSS basic concepts and syntax<br>**Demo:** HTML basics | Interview | All HTML |
-| | Feb 16 | | **NO CLASS - President's Day** | | |
-| **Week 4** | Feb 23 | Working Methods | **Lecture:** HTML structure (box model, dissecting a web page)<br>**Demo:** CSS basics | All HTML | Expressive Text |
-| **Week 5** | Mar 2 | Digital Canvas | **Lecture:** CSS selectors (cascades, combining, parent/child, pseudo)<br>**Demo:** Advanced selectors | Expressive Text | Flags |
-| **Week 6** | Mar 9 | Digital Canvas | **Lecture:** Layouting (position, float, flexbox, grid)<br>**Workshop:** Abstracted Web | | Flags (cont) |
-| | Mar 16 | | **NO CLASS - Spring Break** | | |
-| **Week 7** | Mar 23 | Digital Canvas | **Lecture:** Typography with HTML/CSS<br>**Demo:** Web typography | Flags | 25 Variations |
-| **Week 8** | Mar 30 | Digital Canvas | **Lecture:** Designing for the digital canvas<br>**Workshop:** Midterm Check-ins | | 25 Variations (cont) |
-| **Week 9** | Apr 6 | Designing for interaction | **Lecture:** Programming basic user interactions (:hover, basic JS)<br>**Demo:** JavaScript basics | 25 Variations | Stories as Networks |
-| **Week 10** | Apr 13 | Designing for interaction | **Lecture:** Time-based design<br>**Workshop:** Digital Materiality | | Stories as Networks (cont) |
-| **Week 11** | Apr 20 | Designing for interaction | **Lecture:** User models (data, user flows, UX patterns)<br>**Demo:** JavaScript interactions | | Stories as Networks (cont) |
-| **Week 12** | Apr 27 | Networks | **Lecture:** Putting a website online<br>**Workshop:** Deployment | Stories as Networks | Living Collection |
-| **Week 13** | May 4 | Networks | **Lecture:** Accessibility, Metadata<br>**Workshop:** Web standards | | Living Collection (cont) |
-| **Week 14** | May 11 | Networks | **Lecture:** Asset creation (video, image optimization)<br>**Workshop:** Final project work | | Learning Portfolio Reflection |
-| **Week 15** | May 12 | Networks | **Final Presentation** *(Tuesday make-up day session)* | Living Collection<br>Learning Portfolio Reflection | |
+| Week 1 | Working Methods |
+| :---- | :---- |
+| Asynchronous | Lecture: Computers, files, and networks |
+| Synchronous | Analog Programming |
+| Homework | Interview |
+| Supplemental Resources |  |
+
+| Week 2 | Working Methods |
+| :---- | :---- |
+| Asynchronous | Lecture: Tools, file management, version control |
+| Synchronous | Git Poetry |
+| Homework | Interview |
+| Supplemental Resources |  |
+
+| Week 3 | Working Methods |
+| :---- | :---- |
+| Asynchronous | Lecture: HTML/CSS basic concepts and syntax |
+| Synchronous | Demo |
+| Homework | All HTML |
+| Supplemental Resources |  |
+
+| Week 4 | Working Methods |
+| :---- | :---- |
+| Asynchronous | Lecture: HTML structure (box model, dissecting a web page) |
+| Synchronous | Demo |
+| Homework | Expressive Text |
+| Supplemental Resources |  |
+
+| Week 5 | Digital Canvas |
+| :---- | :---- |
+| Asynchronous | Lecture: CSS selectors (cascades, combining, parent/child, pseudo) |
+| Synchronous | Demo |
+| Homework | Flags |
+| Supplemental Resources |  |
+
+| Week 6 | Digital Canvas |
+| :---- | :---- |
+| Asynchronous | Lecture: Layouting (position, float, flexbox, grid) |
+| Synchronous | Abstracted Web |
+| Homework | Flags |
+| Supplemental Resources |  |
+
+| Week 7 | Digital Canvas |
+| :---- | :---- |
+| Asynchronous | Lecture: Typography with HTML/CSS |
+| Synchronous | Demo |
+| Homework | 25 Variations |
+| Supplemental Resources |  |
+
+| Week 8 | Digital Canvas |
+| :---- | :---- |
+| Asynchronous | Lecture: Designing for the digital canvas (how big is a browser?) |
+| Synchronous | *TBD* |
+| Homework | 25 Variations |
+| Supplemental Resources |  |
+
+| Week 9 | Designing for interaction |
+| :---- | :---- |
+| Asynchronous | Lecture: Programming basic user interactions (:hover, basic JS click, etc.) |
+| Synchronous | Demo |
+| Homework | Stories as Networks |
+| Supplemental Resources |  |
+
+| Week 10 | Designing for interaction |
+| :---- | :---- |
+| Asynchronous | Lecture: Time-based design (interactive states, storyboarding, prototyping) |
+| Synchronous | Digital Materiality |
+| Homework | Stories as Networks |
+| Supplemental Resources |  |
+
+| Week 11 | Designing for interaction |
+| :---- | :---- |
+| Asynchronous | Lecture: User models (entering and receiving data, userflows, UX patterns, ways of navigating) |
+| Synchronous | Demo |
+| Homework | Stories as Networks |
+| Supplemental Resources |  |
+
+| Week 12 | Networks |
+| :---- | :---- |
+| Asynchronous | Lecture: Putting a website online (hosting, Github, custom domains) |
+| Synchronous | *TBD* |
+| Homework | Living Collection |
+| Supplemental Resources |  |
+
+| Week 13 | Networks |
+| :---- | :---- |
+| Asynchronous | Lecture: Accessibility, Metadata (search, social) |
+| Synchronous | *TBD* |
+| Homework | Living Collection |
+| Supplemental Resources |  |
+
+| Week 14 | Networks |
+| :---- | :---- |
+| Asynchronous | Lecture: Asset creation (video, image optimization, webGL) |
+| Synchronous | *TBD* |
+| Homework | Living Collection |
+| Supplemental Resources |  |
+
+| Week 15 | Networks |
+| :---- | :---- |
+| Asynchronous | Lecture: Connecting to other web services |
+| Synchronous | *TBD* |
+| Homework | Living Collection |
+| Supplemental Resources |  |
 
