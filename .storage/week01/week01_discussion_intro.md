@@ -13,16 +13,7 @@ Welcome to Core Interaction! Let\'s get to know each other.
 4.  **A website you love** (and why you love it)
 5.  **What you hope to learn** in this course
 6.  **One fun fact** about yourself
-
-::: {style="background-color: #f7f9fa; padding: 15px; margin: 20px 0; border-left: 4px solid #008ee2;"}
-**Optional:** Include a photo, gif, or image that represents you or your
-interests!
-:::
-
-### After you post: {#after-you-post style="color: #008ee2; margin-top: 30px;"}
-
-- Read and respond to at least 2 other students\' posts
-- Look for potential Interview partners (you\'ll be assigned in Week 2)
+7. Include a photo portrait of yourself
 
 ::: {style="background-color: #e8f5e9; padding: 15px; margin: 20px 0; border-left: 4px solid #4caf50;"}
 **✅ Due:** Before Week 2 (Feb 2)
