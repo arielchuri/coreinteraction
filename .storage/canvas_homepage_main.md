@@ -31,32 +31,12 @@
   --line-height-tight: 1.2;
   body {
     font-family: var(--font-family-base) !important;
+    font-size: var(--font-size-base);
 }
 </style>
 
   <!-- body, p, div, span, li, td, th {
     font-family: var(--font-family-base) !important; -->
-
-
-
-
-::: {style="text-align: center; background-color: var(--bg-light); padding: var(--padding-standard); margin-bottom: var(--margin-standard);"}
-``` {style="display: inline-block; text-align: left; font-family: var(--font-family-mono); font-size: var(--font-size-small); line-height: var(--line-height-tight); color: var(--text-color); margin: 0; padding: var(--padding-small); background-color: var(--white); "}
-  ▄████▄   ▒█████   ██▀███  ▓█████     ██▓ ███▄    █ ▄▄▄█████▓▓█████  ██▀███   ▄▄▄       ▄████▄  ▄▄▄█████▓ ██▓ ▒█████   ███▄    █
- ▒██▀ ▀█  ▒██▒  ██▒▓██ ▒ ██▒▓█   ▀    ▓██▒ ██ ▀█   █ ▓  ██▒ ▓▒▓█   ▀ ▓██ ▒ ██▒▒████▄    ▒██▀ ▀█  ▓  ██▒ ▓▒▓██▒▒██▒  ██▒ ██ ▀█   █
- ▒▓█    ▄ ▒██░  ██▒▓██ ░▄█ ▒▒███      ▒██▒▓██  ▀█ ██▒▒ ▓██░ ▒░▒███   ▓██ ░▄█ ▒▒██  ▀█▄  ▒▓█    ▄ ▒ ▓██░ ▒░▒██▒▒██░  ██▒▓██  ▀█ ██▒
- ▒▓▓▄ ▄██▒▒██   ██░▒██▀▀█▄  ▒▓█  ▄    ░██░▓██▒  ▐▌██▒░ ▓██▓ ░ ▒▓█  ▄ ▒██▀▀█▄  ░██▄▄▄▄██ ▒▓▓▄ ▄██▒░ ▓██▓ ░ ░██░▒██   ██░▓██▒  ▐▌██▒
- ▒ ▓███▀ ░░ ████▓▒░░██▓ ▒██▒░▒████▒   ░██░▒██░   ▓██░  ▒██▒ ░ ░▒████▒░██▓ ▒██▒ ▓█   ▓██▒▒ ▓███▀ ░  ▒██▒ ░ ░██░░ ████▓▒░▒██░   ▓██░
- ░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░░ ▒░ ░   ░▓  ░ ▒░   ▒ ▒   ▒ ░░   ░░ ▒░ ░░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ░▒ ▒  ░  ▒ ░░   ░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒
-   ░  ▒     ░ ▒ ▒░   ░▒ ░ ▒░ ░ ░  ░    ▒ ░░ ░░   ░ ▒░    ░     ░ ░  ░  ░▒ ░ ▒░  ▒   ▒▒ ░  ░  ▒       ░     ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
- ░        ░ ░ ░ ▒    ░░   ░    ░       ▒ ░   ░   ░ ░   ░         ░     ░░   ░   ░   ▒   ░          ░       ▒ ░░ ░ ░ ▒     ░   ░ ░
- ░ ░          ░ ░     ░        ░  ░    ░           ░               ░  ░   ░           ░  ░░ ░                ░      ░ ░           ░
- ░                                                                                         ░
-```
-:::
-
-[Welcome to **CD Foundations:
-Interaction**]{style="font-size: var(--font-size-huge); margin-bottom: 0px;"}
 
 [PSAM 1028 \| Spring 2026 \| Monday 4:00pm -
 6:40pm]{style="font-size: var(--font-size-base); color: var(--text-light);"}
@@ -64,23 +44,27 @@ Interaction**]{style="font-size: var(--font-size-huge); margin-bottom: 0px;"}
 ------------------------------------------------------------------------
 
 
+- [**Course Instructor**]{style="font-size: var(--font-size-base);"}                      
+- [[**ARIEL CHURI**]{style="font-size: var(--font-size-xlarge);"}]{style="color: var(--primary-color);"} 
+- **Email:** churia@newschool.edu\                                       
+- **Office Hours:** Wednesdays & Thursdays, 10am - 3pm (by appointment)\ 
+- [Book Office Hours](https://calendar.app.google/DV7jR3gnQERu9cF46){target="_blank"} 
+                                                                        
 
-:::::::: {style="max-width: 100%;"}
+<!-- :::::::: {style="max-width: 100%;"} -->
 [**To Get Started**]{style="font-size: var(--font-size-large);"}
 
-[**[📄 View the Syllabus on
-GitHub](https://github.com/arielchuri/coreinteraction/blob/main/PSAM_1028_D_CHURI_S26.md "Syllabus"){style="color: var(--primary-color);"
+[**[View the Syllabus on
+GitHub](https://github.com/arielchuri/coreinteraction/PSAM_1028_D_CHURI_S26.md "Syllabus"){style="color: var(--primary-color);"
 target="_blank"}**]{style="font-size: var(--font-size-large);"}
-
-
 
 [**Course Overview**]{style="font-size: var(--font-size-large);"}
 
-[CD Foundations: Interaction is designed to introduce students to
+CD Foundations: Interaction is designed to introduce students to
 programming as a creative medium---as a way of making and exploring. The
 coursework focuses on developing a vocabulary of interaction design
 principles which can then be applied across a range of
-platforms.]{style="font-size: var(--font-size-base);"}
+platforms.
 
 [Students are encouraged to experiment with various media, tools, and
 techniques, ultimately producing a portfolio of interactive and visual
@@ -93,8 +77,6 @@ building.]{style="font-size: var(--font-size-base);"}
 interaction design precedents, learn the languages of the web (HTML,
 CSS, JavaScript), and build a foundation for creating compelling digital
 experiences.]{style="font-size: var(--font-size-base);"}
-
-[** **]{style="font-size: var(--font-size-large);"}
 
 ------------------------------------------------------------------------
 
@@ -144,7 +126,7 @@ to:]{style="font-size: var(--font-size-base);"}
 
 
 
-[[**[📅 Access Weekly Modules Here](# "Modules"){style="color: var(--primary-color);"
+[[**[Access Weekly Modules Here](# "Modules"){style="color: var(--primary-color);"
 course-type="navigation" api-endpoint="#"
 api-returntype="[Module]"}**]{style="color: var(--primary-color);"}]{style="font-size: var(--font-size-huge);"}
 
@@ -152,11 +134,11 @@ api-returntype="[Module]"}**]{style="color: var(--primary-color);"}]{style="font
 
 ------------------------------------------------------------------------
 
-[**Essential Links**]{style="font-size: var(--font-size-large);"}
+<!-- [**Essential Links**]{style="font-size: var(--font-size-large);"} -->
 
-:::::: {style="display: flex; flex-wrap: wrap; gap: var(--padding-standard); margin: var(--margin-standard) 0;"}
-::: {style="flex: 1 1 calc(33.333% - var(--padding-standard)); min-width: 250px; background-color: var(--bg-light); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--primary-color);"}
-**📚 Course Repository**
+<!-- :::::: {style="display: flex; flex-wrap: wrap; gap: var(--padding-standard); margin: var(--margin-standard) 0;"}
+::: {style="flex: 1 1 calc(33.333% - var(--padding-standard)); min-width: 250px; background-color: var(--bg-light); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--primary-color);"} -->
+**Course Repository**
 
 All lectures, assignments, and resources
 
@@ -164,23 +146,13 @@ All lectures, assignments, and resources
 style="font-size: var(--font-size-base);"}
 :::
 
-::: {style="flex: 1 1 calc(33.333% - var(--padding-standard)); min-width: 250px; background-color: var(--bg-light); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--primary-color);"}
-**📅 Schedule**
-
-Week-by-week course timeline
-
-[View Full
-Schedule](https://github.com/arielchuri/coreinteraction/blob/main/schedule/README.md){target="_blank"
-style="font-size: var(--font-size-base);"}
-:::
-
-::: {style="flex: 1 1 calc(33.333% - var(--padding-standard)); min-width: 250px; background-color: var(--bg-light); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--primary-color);"}
-**📖 Reading List**
+<!-- ::: {style="flex: 1 1 calc(33.333% - var(--padding-standard)); min-width: 250px; background-color: var(--bg-light); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--primary-color);"} -->
+**Reading List**
 
 Books, articles, and resources
 
 [View Reading
-List](https://github.com/arielchuri/coreinteraction/blob/main/reading/README.md){target="_blank"
+List](https://github.com/arielchuri/coreinteraction/reading/README.md){target="_blank"
 style="font-size: var(--font-size-base);"}
 :::
 ::::::
@@ -194,74 +166,26 @@ style="font-size: var(--font-size-base);"}
 [Throughout the semester, you\'ll complete a series of projects that
 build on each other:]{style="font-size: var(--font-size-base);"}
 
-- **[Interview](https://github.com/arielchuri/coreinteraction/blob/main/assignments/interview.md){target="_blank"}** -
+- **[Interview](https://github.com/arielchuri/coreinteraction/assignments/interview.md){target="_blank"}** -
   Partner interview website (15%)
 - **[All
-  HTML](https://github.com/arielchuri/coreinteraction/blob/main/assignments/all_html.md){target="_blank"}** -
+  HTML](https://github.com/arielchuri/coreinteraction/assignments/all_html.md){target="_blank"}** -
   Exploring HTML without CSS (Unit 1)
 - **[Expressive
-  Text](https://github.com/arielchuri/coreinteraction/blob/main/assignments/expressive_text.md){target="_blank"}** -
+  Text](https://github.com/arielchuri/coreinteraction/assignments/expressive_text.md){target="_blank"}** -
   Scrolling text experience (Unit 1)
-- **[Flags](https://github.com/arielchuri/coreinteraction/blob/main/assignments/flags.md){target="_blank"}** -
+- **[Flags](https://github.com/arielchuri/coreinteraction/assignments/flags.md){target="_blank"}** -
   Recreate flags with code (15%)
 - **[25
-  Variations](https://github.com/arielchuri/coreinteraction/blob/main/assignments/25_variations.md){target="_blank"}** -
+  Variations](https://github.com/arielchuri/coreinteraction/assignments/25_variations.md){target="_blank"}** -
   Typographic explorations (Unit 2)
 - **[Stories as
-  Networks](https://github.com/arielchuri/coreinteraction/blob/main/assignments/stories_as_networks.md){target="_blank"}** -
+  Networks](https://github.com/arielchuri/coreinteraction/assignments/stories_as_networks.md){target="_blank"}** -
   Borges interpretation (25%)
 - **[Living
-  Collection](https://github.com/arielchuri/coreinteraction/blob/main/assignments/living_collection.md){target="_blank"}** -
+  Collection](https://github.com/arielchuri/coreinteraction/assignments/living_collection.md){target="_blank"}** -
   Dynamic collection website (30%)
 
 [*Note: Attendance & Class Participation accounts for 15% of your
 grade.*]{style="font-size: var(--font-size-base);"}
-
-
-
-::: {style="background-color: var(--bg-yellow); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--border-orange); margin: var(--margin-standard) 0;"}
-**💡 Important Note**
-
-Most course materials live on **GitHub**, not Canvas. This allows for
-easy updates and ensures you always have access to the latest version.
-Bookmark the repository and check it regularly!
-:::
-
-
-
-
-::::::::
-
-
-
-+------------------------------------------------------------------------+
-| [**Course Instructor**]{style="font-size: var(--font-size-base);"}                      |
-|                                                                        |
-| [[**ARIEL CHURI**]{style="font-size: var(--font-size-xlarge);"}]{style="color: var(--primary-color);"} |
-|                                                                        |
-| **Email:** churia@newschool.edu\                                       |
-| **Office Hours:** Wednesdays & Thursdays, 10am - 3pm (by appointment)\ |
-| [Book Office                                                           |
-| Hours](https://calendar.app.google/DV7jR3gnQERu9cF46){target="_blank"} |
-|                                                                        |
-| I\'m excited to explore interaction design with you this semester.     |
-| Don\'t hesitate to reach out with questions, ideas, or if you need     |
-| support!                                                               |
-|                                                                        |
-|                                                                        |
-+------------------------------------------------------------------------+
-
-
-
-::: {style="background-color: var(--bg-blue); padding: var(--padding-standard); border-left: var(--border-width-thick) solid var(--border-blue); margin: var(--margin-standard) 0;"}
-**🚀 Ready to Begin?**
-
-Head to the **Modules** section to start Week 1. Make sure you have:
-
-- Read the syllabus
-- Set up your development environment (code editor, Git, browser)
-- Bookmarked the GitHub repository
-- Completed your introduction post
-:::
-
 
