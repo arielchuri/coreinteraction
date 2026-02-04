@@ -1,0 +1,33 @@
+---
+title: ""
+author: ""
+date: ""
+fontsize: 10pt
+geometry:
+  - margin=0.5in
+  - top=1in
+  - bottom=1in
+colorlinks: true
+linkcolor: DeepPink
+urlcolor:  DeepPink
+toc: false
+linestretch: 1.25
+header-includes: |
+  \usepackage{helvet}
+  \renewcommand{\familydefault}{\sfdefault}
+  \usepackage{titlesec}
+  \usepackage{xcolor}
+  \definecolor{headercolor}{named}{DeepPink}
+  \titleformat{\section}{\raggedright\color{headercolor}\fontsize{24}{26}\selectfont\sffamily\bfseries\hyphenpenalty=10000\exhyphenpenalty=10000}{\thesection}{0em}{\MakeUppercase}
+  \titlespacing*{\section}{0pt}{24pt}{12pt}
+  \titleformat{\subsection}{\raggedright\color{headercolor}\fontsize{18}{20}\selectfont\sffamily\bfseries\hyphenpenalty=10000\exhyphenpenalty=10000}{\thesubsection}{0em}{}
+  \titlespacing*{\subsection}{0pt}{18pt}{10pt}
+  \titleformat{\subsubsection}{\raggedright\color{headercolor}\fontsize{12}{14}\selectfont\sffamily\bfseries\hyphenpenalty=10000\exhyphenpenalty=10000}{\thesubsubsection}{1em}{}
+  \titlespacing*{\subsubsection}{0pt}{12pt}{6pt}
+  \usepackage{enumitem}
+  \setlist{itemsep=0.2em, parsep=0em, topsep=0.3em}
+  \setlength{\parskip}{0.6em}
+  \setlength{\parindent}{0pt}
+  \let\OldRule\rule
+  \renewcommand{\rule}[2]{\vspace{0.3em}\noindent\OldRule{\linewidth}{#2}\vspace{0.3em}}
+---

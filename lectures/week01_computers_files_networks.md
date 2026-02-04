@@ -45,12 +45,13 @@
 - Good names make projects maintainable
 
 **The Rules:**
-- ✅ **Always use lowercase:** `index.html` not `Index.html` or `INDEX.html`
-- ✅ **No spaces:** Use hyphens or underscores instead
-- ✅ **Be descriptive:** `contact-page.html` not `page2.html`
-- ✅ **Use consistent separators:** Pick hyphens OR underscores and stick with it
-- ✅ **Include file extensions:** `.html`, `.css`, `.js`, `.jpg`, etc.
-- ❌ **Avoid special characters:** No @, #, %, &, *, spaces, etc.
+
+- **Always use lowercase:** `index.html` not `Index.html` or `INDEX.html`
+- **No spaces:** Use hyphens or underscores instead
+- **Be descriptive:** `contact-page.html` not `page2.html`
+- **Use consistent separators:** Pick hyphens OR underscores and stick with it
+- **Include file extensions:** `.html`, `.css`, `.js`, `.jpg`, etc.
+- **Avoid special characters:** No @, #, %, &, *, spaces, etc.
 
 **Recommended conventions:**
 
@@ -72,22 +73,20 @@ Option 3 (mixed): lowercase-with-hyphens_version01.html
 **Good vs. Bad examples:**
 
 ```
-❌ BAD:
+ BAD:
 - My Page.html         (spaces)
 - ContactForm.html     (mixed case)
 - page2.html           (not descriptive)
 - about me!.html       (spaces and special char)
 - HOMEPAGE.HTML        (all caps)
 
-✅ GOOD:
+ GOOD:
 - my-page.html
 - contact-form.html
 - about-page.html
 - about-me.html
 - homepage.html
 ```
-
-**Pro tip:** If you're working with version control (Git), lowercase names prevent issues when collaborating across different operating systems (Mac/Windows/Linux handle case differently).
 
 2. **File Paths**
    - Absolute paths: Full path from root directory
