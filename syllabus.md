@@ -7,7 +7,7 @@
 | **Semester** | Spring 2026 |
 | **Meeting Day** | Monday |
 | **Meeting Time** | 4:00pm - 6:40pm |
-| **Building/Room** | TBD |
+| **Building/Room** | 704 |
 | **Instructor** | Ariel Churi |
 | **Email** | churia@newschool.edu |
 | **Class Website** | https://github.com/arielchuri/coreInteraction |
