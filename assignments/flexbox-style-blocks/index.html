@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Style Blocks</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Flexbox Layout Demo</h1>
+
+      <div class="row">
+        <div class="flex-row">
+          <div class="flex-item">Item 1</div>
+          <div class="flex-item">Item 2</div>
+          <div class="flex-item">Item 3</div>
+          <div class="flex-item">Item 4</div>
+          <div class="flex-item">Item 5</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="flex-row">
+          <div class="flex-item">Item A</div>
+          <div class="flex-item">Item B</div>
+          <div class="flex-item">Item C</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="flex-row" style="">
+          <div
+            class="flex-item"
+            style="background-color: #fefefe; color: #292929"
+          >
+            1
+          </div>
+          <div class="flex-item" style="background-color: #292929">2</div>
+          <div class="flex-item" style="background-color: #ec5999">1</div>
+          <div class="flex-item" style="background-color: #ff595e">2</div>
+          <div class="flex-item" style="background-color: #f7802b">3</div>
+          <div class="flex-item" style="background-color: #ffca3a">4</div>
+          <div class="flex-item" style="background-color: #8ac926">5</div>
+          <div class="flex-item" style="background-color: #1aa5c4">6</div>
+          <div class="flex-item" style="background-color: #">8</div>
+          <div class="flex-item" style="background-color: #7f5fad">7</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="flex-row" style="flex-wrap: wrap">
+          <div class="flex-item" style="min-width: 156px">1</div>
+          <div class="flex-item" style="min-width: 156px">2</div>
+          <div class="flex-item" style="min-width: 156px">3</div>
+          <div class="flex-item" style="min-width: 156px">4</div>
+          <div class="flex-item" style="min-width: 156px">5</div>
+          <div class="flex-item" style="min-width: 156px">6</div>
+          <div class="flex-item" style="min-width: 156px">7</div>
+        </div>
+      </div>
+      <div class="row" style="flex-wrap: wrap; gap: 10px">
+        <div class="flex-row" style="">
+          <div class="flex-item" style="">1</div>
+          <div class="flex-item" style="">2</div>
+          <div class="flex-item" style="">3</div>
+          <div class="flex-item" style="">4</div>
+        </div>
+        <div class="flex-row" style="">
+          <div class="flex-item" style="">5</div>
+          <div class="flex-item" style="">6</div>
+          <div class="flex-item" style="">7</div>
+          <div class="flex-item" style="">8</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="flex-row" style="flex-wrap: nowrap">
+          <div class="flex-item">1</div>
+          <div class="flex-item">2</div>
+          <div class="flex-row" style="width: 33%; flex-direction: column">
+            <div class="flex-item" style="min-height: 142px">3</div>
+            <div class="flex-item" style="min-height: 142px">4</div>
+            <div class="flex-item" style="min-height: 142px">5</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="flex-row" style="flex-wrap: nowrap">
+          <div class="flex-item">1</div>
+          <div class="flex-row" style="width: 33%; flex-direction: column">
+            <div class="flex-item" style="min-height: 142px">2</div>
+            <div class="flex-item" style="min-height: 142px">3</div>
+            <div class="flex-item" style="min-height: 142px">4</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="flex-row" style="flex-wrap: nowrap">
+          <div
+            class="flex-item"
+            style="width: 50%; color: #0e0e0e; background-color: #fefefe"
+          >
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div
+            class="flex-item"
+            style="width: 50%; color: #8ac926; background-color: #fefefe"
+          >
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
