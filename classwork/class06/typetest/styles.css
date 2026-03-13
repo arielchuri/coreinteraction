@@ -1,0 +1,265 @@
+/* Reset and basic setup */
+
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+/* the asterix means "target everything" */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* the period means highlight is a class */
+.highlight {
+  color: #ee44aa;
+}
+
+/* this selector targets <p> tags that have the class .highlight */
+p.highlight {
+  font-size: 10pt;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+body {
+  padding: 0;
+  font-family: "Spectral", serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-size: 14pt;
+  line-height: 1.3;
+  text-align: justify;
+  text-justify: inter-word;
+  /* curious about some css? look it up. */
+}
+
+/* this holds all of the content and sits in the middle of the viewport */
+.container {
+  width: 1600px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: auto;
+  min-height: 100vh;
+}
+
+h4 {
+  font-size: 10pt;
+  /* the <body> css makes everything "Spectral" font. this makes <h4> "Spectral SC" (small caps) */
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Row setup */
+.row {
+  display: flex;
+  gap: 64px;
+  margin-top: 100px;
+  margin-bottom: 128px;
+}
+
+/* this selector targets the children of any tags that have the ".row" class */
+.row div {
+  /* these three lines make each column the exact same width */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.indenty > p {
+  margin-bottom: 0;
+}
+
+.blocky {
+  margin-bottom: 0;
+}
+
+/* here i add content after the tags with this class. \25A0 is a unicode character. */
+.blocky::after {
+  content: " \25A0";
+  color: crimson;
+}
+
+/* now we are getting crazy. */
+/* this selector targets the children of the tag with class ".indenty" except the first child */
+/* i am using this to indent all but the first paragraph in the div. */
+.indenty > *:nth-child(n + 2) {
+  text-indent: 3rem;
+}
+
+/* the rest of the styling is done "inline". meaning, in the html tags or in the head tag of the HTML. */
+
+/*typeface*/
+
+/* copied from fonts.google.com */
+.spectral-extralight {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-light {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-regular {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-medium {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-semibold {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-bold {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-extrabold {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-extralight-italic {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.spectral-light-italic {
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.spectral-regular-italic {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.spectral-medium-italic {
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.spectral-semibold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spectral-bold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-extrabold-italic {
+  font-family: "Spectral", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.spectral-sc-extralight {
+  font-family: "Spectral SC", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.spectral-sc-light {
+  font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.spectral-sc-regular {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spectral-sc-medium {
+  font-family: "Spectral SC", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.spectral-sc-semibold {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.spectral-sc-bold {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.spectral-sc-extrabold {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.spectral-sc-extralight-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.spectral-sc-light-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.spectral-sc-regular-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.spectral-sc-medium-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.spectral-sc-semibold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spectral-sc-bold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.spectral-sc-extrabold-italic {
+  font-family: "Spectral SC", serif;
+  font-weight: 800;
+  font-style: italic;
+}
