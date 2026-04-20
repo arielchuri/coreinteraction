@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Inter', sans-serif; */
+  font-size: 14px;
+  line-height: 22px;
+}
+
+body {
+  font-size: 100%;
+  /* background-color: papayawhip; */
+  min-height: 100vh;
+}
+
+header {
+  height: 32px;
+  width: 100%;
+   /* background-color: powderblue; */
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  height: 100%;
+  /* insures that main fills up the remaining space on the page */
+  background-color: white;
+  max-width: 948px;
+}
+
+footer {
+  height: 64px;
+  width: 100%;
+   /* background-color: plum; */
+  /* insure footer stays on the bottom on the page */
+  position: absolute;
+  bottom: 0;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif 4',serif;
+    line-height: 1.375;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+hr {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+section {
+  /* background-color: lemonchiffon; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 32px; */
+  height: 100%;
+}
+
+article {
+  /* background-color: mistyrose; */
+  flex: 2;
+  height: 500px;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#details {
+  width: 303px;
+  height: 700px;
+  background-color: lightgray;
+  float: right;
+  border: 2px solid darkgrey;
+  margin-top: 8px;
+  margin-left: 12px;
+  padding: 12px;
+}
+
+aside {
+}
+
+
+/* @media screen {
+  .mw-body h1, .mw-body .mw-heading1, .mw-body-content h1, .mw-body-content .mw-heading1, .mw-body-content h2, .mw-body-content .mw-heading2 {
+  }
+}
+@media screen {
+  .mw-heading1, h1 {
+    font-size: 188%;
+    font-weight: normal;
+  }
+} */
+
+
+/* @media screen and (min-width: 768px) {
+  * {
+    font-size: 16px;
+    line-height: 24px;
+  }
+ section {
+   flex-direction: row;
+ } 
+} */
