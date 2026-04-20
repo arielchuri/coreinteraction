@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>µCSS — Examples</title>
+	<link rel="stylesheet" href="https://unpkg.com/@digicreon/mucss/dist/mu.fuchsia.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<nav style="background-color: var(--mu-secondary-background); border-radius: var(--mu-border-radius); padding: 0.5rem 1rem;" class="sticky-top">
+				<ul>
+					<li><strong>Brand</strong></li>
+				</ul>
+				<input type="checkbox" id="nav-basic" class="navbar-toggle" hidden>
+				<label for="nav-basic" class="navbar-burger">☰</label>
+				<ul class="navbar-menu">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+
+	<section class="hero hero-primary hero-start hero-flat">
+		<div class="container">
+			<h1>Left-Aligned</h1>
+			<p class="hero-tagline">Content aligned to the start</p>
+			<p class="hero-subtitle">Useful for landing pages with asymmetric layouts</p>
+			<div class="hero-actions">
+				<a class="btn btn-primary" href="#">Action</a>
+				<a class="btn btn-secondary" href="#">Learn more</a>
+			</div>
+		</div>
+	</section>
+	<main class="container">
+
+<div class="row">
+				<div class="col-12 col-md-6">
+					<article class="card-primary">
+						<header>Primary</header>
+						Card body with primary accent.
+						<footer>Card footer</footer>
+					</article>
+				</div>
+				<div class="col-12 col-md-6">
+					<article class="card-secondary">
+						<header>Secondary</header>
+						Card body with secondary accent.
+						<footer>Card footer</footer>
+					</article>
+				</div>
+		<hgroup>
+			<h1>µCSS Examples</h1>
+			<p>Interactive demos for every component in the framework.</p>
+		</hgroup>
+
+		<p>
+			<button class="btn btn-sm btn-secondary" onclick="document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'">Toggle dark mode</button>
+		</p>
+
+
+		<section>
+			<h2>Themes</h2>
+			<p>Each theme page shows all components with a specific color palette.</p>
+			<div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+				<a class="btn btn-sm" style="background:#0172ad;border-color:#0172ad;color:#fff" href="theme-azure.html">Azure</a>
+				<a class="btn btn-sm" style="background:#c52f21;border-color:#c52f21;color:#fff" href="theme-red.html">Red</a>
+				<a class="btn btn-sm" style="background:#c72259;border-color:#c72259;color:#fff" href="theme-pink.html">Pink</a>
+				<a class="btn btn-sm" style="background:#c1208b;border-color:#c1208b;color:#fff" href="theme-fuchsia.html">Fuchsia</a>
+				<a class="btn btn-sm" style="background:#aa40bf;border-color:#aa40bf;color:#fff" href="theme-purple.html">Purple</a>
+				<a class="btn btn-sm" style="background:#8352c5;border-color:#8352c5;color:#fff" href="theme-violet.html">Violet</a>
+				<a class="btn btn-sm" style="background:#655cd6;border-color:#655cd6;color:#fff" href="theme-indigo.html">Indigo</a>
+				<a class="btn btn-sm" style="background:#2060df;border-color:#2060df;color:#fff" href="theme-blue.html">Blue</a>
+				<a class="btn btn-sm" style="background:#047878;border-color:#047878;color:#fff" href="theme-cyan.html">Cyan</a>
+				<a class="btn btn-sm" style="background:#007a50;border-color:#007a50;color:#fff" href="theme-jade.html">Jade</a>
+				<a class="btn btn-sm" style="background:#33790f;border-color:#33790f;color:#fff" href="theme-green.html">Green</a>
+				<a class="btn btn-sm" style="background:#577400;border-color:#577400;color:#fff" href="theme-lime.html">Lime</a>
+				<a class="btn btn-sm" style="background:#756b00;border-color:#756b00;color:#fff" href="theme-yellow.html">Yellow</a>
+				<a class="btn btn-sm" style="background:#876400;border-color:#876400;color:#fff" href="theme-amber.html">Amber</a>
+				<a class="btn btn-sm" style="background:#9c5900;border-color:#9c5900;color:#fff" href="theme-pumpkin.html">Pumpkin</a>
+				<a class="btn btn-sm" style="background:#bd3c13;border-color:#bd3c13;color:#fff" href="theme-orange.html">Orange</a>
+				<a class="btn btn-sm" style="background:#6e6a60;border-color:#6e6a60;color:#fff" href="theme-sand.html">Sand</a>
+				<a class="btn btn-sm" style="background:#6a6a6a;border-color:#6a6a6a;color:#fff" href="theme-grey.html">Grey</a>
+				<a class="btn btn-sm" style="background:#646b79;border-color:#646b79;color:#fff" href="theme-zinc.html">Zinc</a>
+				<a class="btn btn-sm" style="background:#5d6b89;border-color:#5d6b89;color:#fff" href="theme-slate.html">Slate</a>
+			</div>
+		</section>
+
+		<hr>
+
+		<section>
+			<h2>Layout &amp; Utilities</h2>
+			<table class="table-hover">
+				<tbody>
+					<tr><td><a href="colors.html">Colors</a></td><td>11 color roles, swatches, variables, utility classes (<code>.c-*</code>, <code>.bg-*</code>, <code>.border-*</code>)</td></tr>
+					<tr><td><a href="typography.html">Typography</a></td><td>Headings, blockquote, lists, code, kbd, mark, inline text</td></tr>
+					<tr><td><a href="grid.html">Grid</a></td><td>12-column responsive grid system</td></tr>
+				</tbody>
+			</table>
+			<p>Positioning utilities: <code>.sticky-top</code>, <code>.fixed-top</code>, <code>.fixed-bottom</code> — work on any element, with automatic <code>z-index</code> and <code>box-shadow</code> on navbars.</p>
+		</section>
+
+		<section>
+			<h2>Navigation</h2>
+			<table class="table-hover">
+				<tbody>
+					<tr><td><a href="breadcrumb.html">Breadcrumb</a></td><td>Navigation trail — 4 separators, boxed variant</td></tr>
+					<tr><td><a href="nav.html">Nav</a></td><td>Horizontal bar — brand, links, buttons, dropdown, burger, active, sticky/fixed</td></tr>
+					<tr><td><a href="dropdown.html">Dropdown</a></td><td>Dropdown menus via <code>&lt;details class="dropdown"&gt;</code></td></tr>
+					<tr><td><a href="pagination.html">Pagination</a></td><td>Aligned, sized, borderless, responsive</td></tr>
+					<tr><td><a href="tabs.html">Tabs</a></td><td>Standard, pills, aligned, fullwidth</td></tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h2>Forms &amp; Inputs</h2>
+			<table class="table-hover">
+				<tbody>
+					<tr><td><a href="forms.html">Forms</a></td><td>Input sizes and validation states</td></tr>
+					<tr><td><a href="forms-advanced.html">Forms (advanced)</a></td><td>Color, date, time, file, search, helper text</td></tr>
+					<tr><td><a href="checkbox-radio.html">Checkbox &amp; Radio</a></td><td>Checkboxes, radios, indeterminate, validation</td></tr>
+					<tr><td><a href="switch.html">Switch</a></td><td>Toggle switches via <code>&lt;input role="switch"&gt;</code></td></tr>
+					<tr><td><a href="range.html">Range</a></td><td>Range sliders with output</td></tr>
+					<tr><td><a href="group.html">Group</a></td><td>Input/button groups via <code>role="group"</code> and <code>role="search"</code></td></tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h2>Buttons &amp; Badges</h2>
+			<table class="table-hover">
+				<tbody>
+					<tr><td><a href="button.html">Button</a></td><td>Buttons — 11 colors, outline, link, 3 sizes</td></tr>
+					<tr><td><a href="badge.html">Badge</a></td><td>Inline labels — filled, outline, pill, sizes, attached</td></tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h2>Content</h2>
+			<table class="table-hover">
+				<tbody>
+					<tr><td><a href="accordion.html">Accordion</a></td><td>Collapsible sections using <code>&lt;details&gt;</code></td></tr>
+					<tr><td><a href="card.html">Card</a></td><td>Colored articles with header/body/footer</td></tr>
+					<tr><td><a href="hero.html">Hero</a></td><td>Full-width hero sections — 11 colors, gradient, responsive</td></tr>
+					<tr><td><a href="modal.html">Modal</a></td><td>Dialog sizes — sm, default, lg, fullscreen</td></tr>
+					<tr><td><a href="table.html">Table</a></td><td>Hover, striped, bordered, compact, fullwidth</td></tr>
+					<tr><td><a href="tooltip.html">Tooltip</a></td><td>Tooltips via <code>data-tooltip</code> — 4 placements</td></tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h2>Feedback &amp; Loading</h2>
+			<table class="table-hover">
+				<tbody>
+					<tr><td><a href="alert.html">Alert</a></td><td>Notification banners — 11 colors, dismissible</td></tr>
+					<tr><td><a href="toast.html">Toast</a></td><td>Fixed-position notifications — 6 positions, 11 colors</td></tr>
+					<tr><td><a href="progress.html">Progress</a></td><td>Colored progress bars</td></tr>
+					<tr><td><a href="loading.html">Loading</a></td><td>Loading states via <code>aria-busy="true"</code></td></tr>
+					<tr><td><a href="spinner.html">Spinner</a></td><td>Loading spinners — 11 colors, 3 sizes</td></tr>
+					<tr><td><a href="skeleton.html">Skeleton</a></td><td>Loading placeholders — text, title, avatar, image</td></tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+</body>
+</html>
