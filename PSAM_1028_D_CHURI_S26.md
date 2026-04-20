@@ -11,6 +11,7 @@
 | **Instructor** | Ariel Churi |
 | **Email** | churia@newschool.edu |
 | **Class Website** | https://github.com/arielchuri/coreInteraction |
+|**Office Hours:** | Virtually 10am - 3pm, Wednesdays and Thursdays. Appointments must be booked at least 8 hours in advance. Meetings will take place over the zoom link in the calendar invite. [Booking link](https://calendar.app.google/DV7jR3gnQERu9cF46)|
 
 **Course Description**  
 CD Foundations: Interaction is designed to introduce students to programming as a creative medium—as a way of making and exploring. The coursework focuses on developing a vocabulary of interaction design principles which can then be applied across a range of platforms. Students are encouraged to experiment with various media, tools, and techniques, ultimately producing a portfolio of interactive and visual projects designed for the screen. An emphasis is placed on typography as it applies to a screen context, research-based problem solving and a learning-through-making approach to technical skill building. Historical and current interaction design precedents will be discussed. This course is intended for non-communication design majors, as an introduction to the discipline.
