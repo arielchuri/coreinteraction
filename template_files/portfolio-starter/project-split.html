@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Screen Gallery - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        REUSABLE NAV COMPONENT
+        We only write the nav once in components.js! 
+    -->
+    <nav-bar></nav-bar>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Split Screen <span class="highlight">Layout</span>.</h1>
+            <p class="subtitle">Perfect for storytelling and impactful imagery.</p>
+        </header>
+
+        <!-- 
+            LAYOUT TYPE 1: SPLIT SCREEN
+            Instructions: Use .split-screen as a wrapper. 
+            The .split-image will fill the height on desktop and stack on mobile.
+        -->
+        <section class="split-screen">
+            <div class="split-image" style="background-color: var(--accent-1);"></div>
+            <div class="split-text">
+                <h2>The Concept</h2>
+                <p>This layout uses Flexbox with flex-wrap. On large screens, the image and text sit side-by-side. On small screens, they stack automatically.</p>
+                <p>It's a great way to show a single high-quality hero image next to a detailed case study description.</p>
+            </div>
+        </section>
+
+        <section style="margin-top: 4rem;">
+            <h2>Continuing the Story</h2>
+            <p>You can add more sections below. Notice how the custom footer-bar handles the bottom spacing automatically.</p>
+        </section>
+    </main>
+
+    <!-- REUSABLE FOOTER COMPONENT -->
+    <footer-bar></footer-bar>
+
+    <!-- SCRIPTS -->
+    <script src="components.js"></script>
+    <script>
+        // Check theme on page load (so it doesn't flicker)
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>

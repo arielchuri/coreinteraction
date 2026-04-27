@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+
+    <main class="container">
+        <header class="hero">
+            <h1 class="balanced">Design <span class="highlight">System</span>.</h1>
+            <p class="subtitle balanced">A showcase of components, tokens, and modern CSS effects.</p>
+        </header>
+
+        <!-- COLOR SWATCHES -->
+        <section>
+            <h2>Color Swatches</h2>
+            <div class="swatch-grid">
+                <div class="swatch" style="background-color: var(--accent-primary); color: white;">--accent-primary</div>
+                <div class="swatch" style="background-color: var(--accent-1); color: black;">--accent-1</div>
+                <div class="swatch" style="background-color: var(--accent-2); color: white;">--accent-2</div>
+                <div class="swatch" style="background-color: var(--accent-3); color: black;">--accent-3</div>
+                <div class="swatch" style="background-color: var(--bg-color); color: var(--text-color); border: 1px solid var(--border-color);">--bg-color</div>
+                <div class="swatch" style="background-color: var(--card-bg); color: var(--text-color);">--card-bg</div>
+            </div>
+        </section>
+
+        <!-- TYPOGRAPHY -->
+        <section>
+            <h2>Typography</h2>
+            <div class="token-card">
+                <h1>Heading 1 (3.5rem)</h1>
+                <h2>Heading 2 (2rem)</h2>
+                <h3>Heading 3 (Default)</h3>
+                <p><strong>Paragraph:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+                <p style="color: var(--text-muted);">This is muted text using --text-muted.</p>
+            </div>
+        </section>
+
+        <!-- LISTS & TABLES -->
+        <section>
+            <h2>Lists & Tables</h2>
+            <div class="token-card" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div>
+                    <h3>Unordered List</h3>
+                    <ul>
+                        <li>Item one with some text</li>
+                        <li>Item two with more text</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Ordered List</h3>
+                    <ol>
+                        <li>First important step</li>
+                        <li>Second important step</li>
+                    </ol>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Token Name</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Primary</td>
+                        <td><code>--accent-primary</code></td>
+                        <td>#ff3e00</td>
+                    </tr>
+                    <tr>
+                        <td>Background</td>
+                        <td><code>--bg-color</code></td>
+                        <td>Variable</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- CORNER RADIA -->
+        <section>
+            <h2>Corner Radii</h2>
+            <div class="swatch-grid">
+                <div class="swatch" style="background: var(--accent-1); border-radius: var(--radius-sm); height: 80px;">--radius-sm</div>
+                <div class="swatch" style="background: var(--accent-2); border-radius: var(--radius-md); height: 80px;">--radius-md</div>
+                <div class="swatch" style="background: var(--accent-3); border-radius: var(--radius-lg); height: 80px;">--radius-lg</div>
+                <div class="swatch" style="background: var(--accent-primary); border-radius: var(--radius-full); height: 80px; color: white;">--radius-full</div>
+            </div>
+        </section>
+
+        <!-- SHADOWS -->
+        <section>
+            <h2>Shadows</h2>
+            <div class="swatch-grid">
+                <div class="swatch" style="background: var(--bg-color); box-shadow: var(--shadow-sm); height: 100px; color: var(--text-color);">--shadow-sm</div>
+                <div class="swatch" style="background: var(--bg-color); box-shadow: var(--shadow-md); height: 100px; color: var(--text-color);">--shadow-md</div>
+                <div class="swatch" style="background: var(--bg-color); box-shadow: var(--shadow-lg); height: 100px; color: var(--text-color);">--shadow-lg</div>
+            </div>
+        </section>
+
+        <!-- MICROINTERACTIONS -->
+        <section>
+            <h2>Microinteractions</h2>
+            <div class="token-card" style="display: flex; gap: 2rem; align-items: center; flex-wrap: wrap;">
+                <button class="btn-demo">Hover & Click Me</button>
+                <a href="#" class="hover-link">Animated Underline Link</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer-bar></footer-bar>
+
+    <script src="components.js"></script>
+    <script>
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>

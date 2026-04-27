@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry Gallery - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+
+    <main class="container">
+        <header class="hero">
+            <h1 class="balanced">Masonry <span class="highlight">Gallery</span>.</h1>
+            <p class="subtitle balanced">A tall, dramatic grid with a blurred peeking lightbox.</p>
+        </header>
+
+        <!-- MASONRY GRID -->
+        <section class="masonry-container">
+            <div class="masonry-item" style="height: 400px; background: var(--accent-1);" onclick="openMasonryLightbox(0)"></div>
+            <div class="masonry-item" style="height: 600px; background: var(--accent-2);" onclick="openMasonryLightbox(1)"></div>
+            <div class="masonry-item" style="height: 350px; background: var(--accent-3);" onclick="openMasonryLightbox(2)"></div>
+            <div class="masonry-item" style="height: 500px; background: var(--accent-primary);" onclick="openMasonryLightbox(3)"></div>
+            <div class="masonry-item" style="height: 700px; background: var(--accent-1);" onclick="openMasonryLightbox(4)"></div>
+            <div class="masonry-item" style="height: 450px; background: var(--accent-2);" onclick="openMasonryLightbox(5)"></div>
+            <div class="masonry-item" style="height: 550px; background: var(--accent-3);" onclick="openMasonryLightbox(6)"></div>
+            <div class="masonry-item" style="height: 400px; background: var(--accent-primary);" onclick="openMasonryLightbox(7)"></div>
+        </section>
+
+        <!-- LIGHTBOX DIALOG -->
+        <dialog id="lightbox-masonry">
+            <button class="close-lightbox" onclick="this.closest('dialog').close()">&times;</button>
+            <div class="peek-carousel" id="peek-carousel">
+                <!-- Carousel items match the grid items -->
+                <div class="peek-item" style="background: var(--accent-1);">01</div>
+                <div class="peek-item" style="background: var(--accent-2);">02</div>
+                <div class="peek-item" style="background: var(--accent-3);">03</div>
+                <div class="peek-item" style="background: var(--accent-primary);">04</div>
+                <div class="peek-item" style="background: var(--accent-1);">05</div>
+                <div class="peek-item" style="background: var(--accent-2);">06</div>
+                <div class="peek-item" style="background: var(--accent-3);">07</div>
+                <div class="peek-item" style="background: var(--accent-primary);">08</div>
+            </div>
+        </dialog>
+    </main>
+
+    <footer-bar></footer-bar>
+
+    <script src="components.js"></script>
+    <script>
+        const dialog = document.getElementById('lightbox-masonry');
+        const carousel = document.getElementById('peek-carousel');
+
+        function openMasonryLightbox(index) {
+            dialog.showModal();
+            
+            // Calculate scroll position to center the correct item
+            const items = carousel.querySelectorAll('.peek-item');
+            const itemWidth = items[0].offsetWidth + 32; // width + gap (2rem = 32px)
+            
+            // Use setTimeout to ensure the dialog is rendered before scrolling
+            setTimeout(() => {
+                carousel.scrollLeft = index * itemWidth;
+            }, 10);
+        }
+
+        // Close on backdrop click
+        dialog.addEventListener('click', (e) => {
+            if (e.target === dialog) dialog.close();
+        });
+
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 
+        REUSABLE NAV COMPONENT
+        Defined in components.js. Edit it there to change links across all pages.
+    -->
+    <nav-bar></nav-bar>
+
+    <header class="hero container">
+        <h1>Hi, I'm <span class="highlight">Your Name</span>.</h1>
+        <p class="subtitle">A creative developer making bright things for the web.</p>
+    </header>
+
+    <main class="container">
+        <section id="projects">
+            <h2>Selected Work</h2>
+            <div class="project-grid">
+                
+                <!-- Project 1: Split Screen -->
+                <a href="project-split.html" class="project-card">
+                    <div class="card-img" style="background-color: var(--accent-1);"></div>
+                    <div class="card-content">
+                        <h3>Split Screen Gallery</h3>
+                        <p>Impactful side-by-side storytelling layout.</p>
+                        <span class="link">View Case Study &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- Project 2: Responsive Grid -->
+                <a href="project-grid.html" class="project-card">
+                    <div class="card-img" style="background-color: var(--accent-2);"></div>
+                    <div class="card-content">
+                        <h3>Grid with Lightbox</h3>
+                        <p>A classic grid with a native modal overlay.</p>
+                        <span class="link">View Gallery &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- Project 3: Carousel -->
+                <a href="project-carousel.html" class="project-card">
+                    <div class="card-img" style="background-color: var(--accent-3);"></div>
+                    <div class="card-content">
+                        <h3>Scroll Carousel</h3>
+                        <p>High-performance slider using CSS snapping.</p>
+                        <span class="link">View Slider &rarr;</span>
+                    </div>
+                </a>
+
+                <!-- Project 4: Masonry -->
+                <a href="project-masonry.html" class="project-card">
+                    <div class="card-img" style="background-color: var(--accent-1); height: 300px;"></div>
+                    <div class="card-content">
+                        <h3>Masonry Gallery</h3>
+                        <p>Tall dramatic grid with a blurred peeking lightbox.</p>
+                        <span class="link">View Gallery &rarr;</span>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I build lightweight, high-performance websites using the latest web standards. No heavy frameworks, just clean code and vibrant design.</p>
+        </section>
+    </main>
+
+    <!-- REUSABLE FOOTER COMPONENT -->
+    <footer-bar></footer-bar>
+
+    <!-- SCRIPTS -->
+    <script src="components.js"></script>
+    <script>
+        // Check theme on page load to prevent flicker
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>

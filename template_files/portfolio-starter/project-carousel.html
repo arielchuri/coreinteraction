@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Gallery - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Horizontal <span class="highlight">Carousel</span>.</h1>
+            <p class="subtitle">A lightweight slider using native CSS Scroll Snapping.</p>
+        </header>
+
+        <!-- 
+            LAYOUT TYPE 3: CAROUSEL
+            Instructions: This uses zero JS for the movement. 
+            scroll-snap-type: x mandatory on the parent (.carousel)
+            scroll-snap-align: center on the children (.carousel-item)
+            This works perfectly on touch screens.
+        -->
+        <section class="carousel">
+            <div class="carousel-item" style="background-color: var(--accent-1);"></div>
+            <div class="carousel-item" style="background-color: var(--accent-2);"></div>
+            <div class="carousel-item" style="background-color: var(--accent-3);"></div>
+            <div class="carousel-item" style="background-color: var(--accent-primary);"></div>
+        </section>
+
+        <section style="margin-top: 2rem;">
+            <h2>Modern & Performant</h2>
+            <p>Because this uses native browser scrolling, it is much smoother than old-fashioned jQuery sliders and has a zero-byte footprint for JavaScript.</p>
+            <p>Try dragging or swiping the colorful blocks above!</p>
+        </section>
+    </main>
+
+    <footer-bar></footer-bar>
+
+    <script src="components.js"></script>
+    <script>
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>

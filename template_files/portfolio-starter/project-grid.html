@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Gallery - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Responsive <span class="highlight">Grid</span>.</h1>
+            <p class="subtitle">A classic masonry-style layout with a built-in lightbox.</p>
+        </header>
+
+        <!-- 
+            LAYOUT TYPE 2: GRID GALLERY
+            Instructions: Uses CSS Grid repeat(auto-fill). 
+            Clicking any .gallery-item triggers the native <dialog> lightbox.
+        -->
+        <section class="gallery-grid">
+            <div class="gallery-item" style="background-color: var(--accent-1);" onclick="openLightbox(this.style.backgroundColor)"></div>
+            <div class="gallery-item" style="background-color: var(--accent-2);" onclick="openLightbox(this.style.backgroundColor)"></div>
+            <div class="gallery-item" style="background-color: var(--accent-3);" onclick="openLightbox(this.style.backgroundColor)"></div>
+            <div class="gallery-item" style="background-color: var(--accent-primary);" onclick="openLightbox(this.style.backgroundColor)"></div>
+            <div class="gallery-item" style="background-color: #ffcc00;" onclick="openLightbox(this.style.backgroundColor)"></div>
+            <div class="gallery-item" style="background-color: #00ffcc;" onclick="openLightbox(this.style.backgroundColor)"></div>
+        </section>
+
+        <!-- 
+            NATIVE LIGHTBOX 
+            Uses the <dialog> element. It's built into browsers and handles
+            focus and closing (via Escape key) automatically!
+        -->
+        <dialog id="lightbox" onclick="this.close()">
+            <div id="lightbox-content" style="width: 100%; height: 60vh; border-radius: 12px;"></div>
+            <p style="color: white; text-align: center; margin-top: 1rem;">Click anywhere to close</p>
+        </dialog>
+
+    </main>
+
+    <footer-bar></footer-bar>
+
+    <script src="components.js"></script>
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const content = document.getElementById('lightbox-content');
+
+        function openLightbox(color) {
+            content.style.backgroundColor = color;
+            lightbox.showModal();
+        }
+
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>
